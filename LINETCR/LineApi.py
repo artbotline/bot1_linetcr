@@ -606,7 +606,7 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("Creator By:™ചচ✾ъπ່७✾ざণاعနัю❍ีざန")
+      print("Creator By:•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)
