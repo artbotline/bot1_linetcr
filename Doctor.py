@@ -291,7 +291,7 @@ helpMessage4 ="""
 ║✰ บินแม่ง ➠สั่งคิกเกอร์บินห้อง
 ╚══════════════════════
 """
-KAC=[cl,ki1,ki2,ki3,ki4]
+KAC=[cl]
 mid = cl.getProfile().mid
 #Amid1 = ki1.getProfile().mid
 #Amid2 = ki2.getProfile().mid
