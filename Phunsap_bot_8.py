@@ -43,7 +43,7 @@ ki7.login(token="Er6VxWijTzAGa3hKDbR3.XrnMj6ZF30DtcoG9fF+4aW.wFT5oGS2uQCAWXcghrg
 ki7.loginResult()
 
 ki8 = LINETCR.LINE()
-ki8.login(token="ErxeOASjWsufJIW6E4gf./8vg5oHsObPX5HsSxZmjxW.zK9FsMksj1pWbJt3QghJcIqMxZFZa0vAwCyw9B9BXw0=")
+ki8.login(token="ErX2LSxwXUnWE4RRgeqf./8vg5oHsObPX5HsSxZmjxW.Oln9zzwSYqnY+bCYulgOUaffMMgq2Hy9OZODUIEacck=")
 ki8.loginResult()
 
 #ki9 = LINETCR.LINE()
