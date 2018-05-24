@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import LINEVIT
-from LINEVIT.lib.curve.ttypes import *
+import LINETCR
+from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
@@ -11,7 +11,7 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 
-cl = LINEVIT.LINE()
+cl = LINETCR.LINE()
 cl.login(token="EscaW8ljFEa05EP5LZc8.Az+e9zx1aKnHFkBmtSDZYa.gGZ3+rfFyrNcmAVq6UnukcEghmtDJ+0XQwJdkYoSjeo=")
 cl.loginResult()
 
