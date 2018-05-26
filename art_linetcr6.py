@@ -2954,7 +2954,7 @@ http://line.me/ti/p/_9io7edD7W
             elif msg.text in ["Selfbot"]:
 				msg.contentType = 13
 				msg.contentMetadata = {'mid': mid}
-		    	ki1.sendMessage(msg)
+		    	cl.sendMessage(msg)
 				ki1.sendText(msg.to,"[SELFBOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
             elif "ไอดี" == msg.text:
                 key = msg.to
