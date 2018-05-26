@@ -31,6 +31,34 @@ ki4 = LINETCR.LINE()
 ki4.login(token="Esiqc8tPro5SbEhIjk09.ARWWQwWlFLlktlE/A8VSMq.utQe/xTobMQog4vE48NPlmGtZSrK1iAwuibygwnON3w=")
 ki4.loginResult()
 
+#ki5 = LINETCR.LINE()
+#ki5.login(token="")
+#ki5.loginResult()
+
+#ki6 = LINETCR.LINE()
+#ki6.login(token="")
+#ki6.loginResult()
+
+#ki7 = LINETCR.LINE()
+#ki7.login(token="")
+#ki7.loginResult()
+
+#ki8 = LINETCR.LINE()
+#ki8.login(token="")
+#ki8.loginResult()
+
+#ki9 = LINEVIT.LINE()
+#ki9.login(token="
+#ki9.loginResult()
+
+#ki10 = LINEVIT.LINE()
+#ki10.login(token="
+#ki10.loginResult()
+
+#ki11 = LINEVIT.LINE()
+#ki11.login(token="
+#ki11.loginResult()
+
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -302,6 +330,12 @@ Amid1 = ki1.getProfile().mid
 Amid2 = ki2.getProfile().mid
 Amid3 = ki3.getProfile().mid
 Amid4 = ki4.getProfile().mid
+#Amid5 = ki5.getProfile().mid
+#Amid6 = ki6.getProfile().mid
+#Amid7 = ki7.getProfile().mid
+#Amid8 = ki8.getProfile().mid
+#Amid9 = ki9.getProfile().mid
+#Amid10 = ki10.getProfile().mid
 
 protectname = []
 protecturl = []
@@ -439,6 +473,48 @@ backup = ki4.getProfile()
 backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
+
+#contact = ki5.getProfile()
+#backup = ki5.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
+
+#contact = ki6.getProfile()
+#backup = ki6.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
+
+#contact = ki7.getProfile()
+#backup = ki7.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
+
+#contact = ki8.getProfile()
+#backup = ki8.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
+
+#contact = ki9.getProfile()
+#backup = ki9.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
+
+#contact = ki10.getProfile()
+#backup = ki10.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
+
+#contact = ki11.getProfile()
+#backup = ki11.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
     
 def restart_program():
@@ -802,6 +878,68 @@ def bot(op):
                         ki4.updateGroup(X)
                         Ti = ki4.reissueGroupTicket(op.param1)
 
+                if op.param3 in mid:
+                    if op.param2 in Amid5:
+                        G = ki5.getGroup(op.param1)
+                        G.preventJoinByTicket = False
+                        ki5.updateGroup(X)
+                        Ti = ki5.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        G.preventJoinByTicket = True
+                        ki5.updateGroup(X)
+                        Ti = ki5.reissueGroupTicket(op.param1)
+
+                if op.param3 in mid:
+                    if op.param2 in Amid6:
+                        G = ki6.getGroup(op.param1)
+                        G.preventJoinByTicket = False
+                        ki6.updateGroup(X)
+                        Ti = ki6.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        G.preventJoinByTicket = True
+                        ki6.updateGroup(X)
+                        Ti = ki6.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Amid7:
+                        G = ki7.getGroup(op.param1)
+                        G.preventJoinByTicket = False
+                        ki7.updateGroup(X)
+                        Ti = ki7.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        G.preventJoinByTicket = True
+                        ki7.updateGroup(X)
+                        Ti = ki7.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Amid8:
+                        G = ki8.getGroup(op.param1)
+                        G.preventJoinByTicket = False
+                        ki8.updateGroup(X)
+                        Ti = ki8.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        G.preventJoinByTicket = True
+                        ki8.updateGroup(X)
+                        Ti = ki8.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Amid9:
+                        G = ki9.getGroup(op.param1)
+                        G.preventJoinByTicket = False
+                        ki9.updateGroup(X)
+                        Ti = ki9.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        G.preventJoinByTicket = True
+                        ki9.updateGroup(X)
+                        Ti = ki9.reissueGroupTicket(op.param1)
+                if op.param3 in mid:
+                    if op.param2 in Amid10:
+                        G = ki10.getGroup(op.param1)
+                        G.preventJoinByTicket = False
+                        ki10.updateGroup(X)
+                        Ti = ki10.reissueGroupTicket(op.param1)
+                        cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        G.preventJoinByTicket = True
+                        ki10.updateGroup(X)
+                        Ti = ki10.reissueGroupTicket(op.param1)
+
 
 
                 if op.param3 in Amid1:
@@ -837,14 +975,86 @@ def bot(op):
                         ki4.updateGroup(X)
                         Ti = ki4.reissueGroupTicket(op.param1)
 
-                
+                if op.param3 in Amid4:
+                    if op.param2 in Amid5:
+                        X = ki5.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ki5.updateGroup(X)
+                        Ti = ki5.reissueGroupTicket(op.param1)
+                        ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ki5.updateGroup(X)
+                        Ti = ki5.reissueGroupTicket(op.param1)
+
+                if op.param3 in Amid5:
+                    if op.param2 in Amid6:
+                        X = ki6.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ki6.updateGroup(X)
+                        Ti = ki6.reissueGroupTicket(op.param1)
+                        ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ki6.updateGroup(X)
+                        Ti = ki6.reissueGroupTicket(op.param1)
+
+                if op.param3 in Amid6:
+                    if op.param2 in Amid7:
+                        X = ki7.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ki7.updateGroup(X)
+                        Ti = ki7.reissueGroupTicket(op.param1)
+                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ki.updateGroup(X)
+                        Ti = ki7.reissueGroupTicket(op.param1)
+
+                if op.param3 in Amid7:
+                    if op.param2 in Amid8:
+                        X = ki8.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ki8.updateGroup(X)
+                        Ti = ki8.reissueGroupTicket(op.param1)
+                        ki7.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ki8.updateGroup(X)
+                        Ti = ki8.reissueGroupTicket(op.param1)
+                if op.param3 in Amid8:
+                    if op.param2 in Amid9:
+                        X = ki9.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ki9.updateGroup(X)
+                        Ti = ki9.reissueGroupTicket(op.param1)
+                        ki8.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ki9.updateGroup(X)
+                        Ti = ki9.reissueGroupTicket(op.param1)
+                if op.param3 in Amid9:
+                    if op.param2 in Amid10:
+                        X = ki10.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ki7.updateGroup(X)
+                        Ti = ki10.reissueGroupTicket(op.param1)
+                        ki9.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ki10.updateGroup(X)
+                        Ti = ki10.reissueGroupTicket(op.param1)
+                if op.param3 in Amid10:
+                    if op.param2 in Amid1:
+                        X = ki.getGroup(op.param1)
+                        X.preventJoinByTicket = False
+                        ki.updateGroup(X)
+                        Ti = ki.reissueGroupTicket(op.param1)
+                        ki10.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        X.preventJoinByTicket = True
+                        ki.updateGroup(X)
+                        Ti = ki.reissueGroupTicket(op.param1)
 
 #===========================================
         if op.type == 32:
             if not op.param2 in Bots:
                 if wait["protectionOn"] == True: 
                     try:
-                        klist=[ki1,ki2,ki3,ki4]
+                        klist=[ki1,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
                         kicker = random.choice(klist) 
                         G = kicker.getGroup(op.param1)
                         kicker.kickoutFromGroup(op.param1,[op.param2])
@@ -917,7 +1127,7 @@ def bot(op):
             if not op.param2 in Bots:
               if wait["qr"] == True:  
                 try:
-                    klist=[ki1,ki2,ki3,ki4]
+                    klist=[ki1,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
                     kicker = random.choice(klist) 
                     G = kicker.getGroup(op.param1)
                     G.preventJoinByTicket = True
@@ -928,7 +1138,7 @@ def bot(op):
             if not op.param2 in Bots:
               if wait["protectionOn"] == True:
                  try:                    
-                    klist=[ki1,ki2,ki3,ki4]
+                    klist=[ki1,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
                     kicker = random.choice(klist) 
                     G = kicker.getGroup(op.param1)
                     G.preventJoinByTicket = True
@@ -943,7 +1153,7 @@ def bot(op):
             I = G.creator
             if not op.param2 in Bots:
                 if wait["protectionOn"] == True:  
-                    klist=[ki1,ki2,ki3,ki4]
+                    klist=[ki1,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
                     kicker = random.choice(klist)
                     G = kicker.getGroup(op.param1)
                     if G is not None:
@@ -974,7 +1184,7 @@ def bot(op):
                 if not op.param2 in Bots:
                   if wait["protectionOn"] == True:  
                    try:
-                       klist=[ki1,ki2,ki3,ki4]
+                       klist=[ki1,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
                        kicker = random.choice(klist)
                        G = kicker.getGroup(op.param1)
                        G.preventJoinByTicket = False
@@ -1568,7 +1778,15 @@ def bot(op):
                     time.sleep(0.01)
                     ki4.acceptGroupInvitationByTicket(op.param1,Ti)
                     time.sleep(0.01)
-                    
+                    ki5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    time.sleep(0.01)
+                    ki6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    time.sleep(0.01)
+                    ki7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki10.acceptGroupInvitationByTicket(op.param1,Ti)
+
                     X = ki10.getGroup(op.param1)
                     X.preventJoinByTicket = True
                     ki10.updateGroup(X)
@@ -1792,13 +2010,13 @@ def bot(op):
                 if wait["lang"] == "JP":
                     ki1.sendText(msg.to, helpMessage + "")
                 else:
-                    cl.sendText(msg.to,helpt)
+                    ki1.sendText(msg.to,helpt)
             elif msg.text in ["คำสั่ง2"]:
                 print "\nHelp pick up..."
                 if wait["lang"] == "JP":
                     ki1.sendText(msg.to, helpMessage2 + "")
                 else:
-                    cl.sendText(msg.to,helpt)
+                    ki1.sendText(msg.to,helpt)
             elif msg.text in ["คำสั่ง3"]:
                 print "\nHelp pick up..."
                 if wait["lang"] == "JP":
@@ -1921,17 +2139,34 @@ def bot(op):
             elif msg.text.lower() == 'บอท':
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid1}
-                ki1.sendMessage(msg)
+                cl.sendMessage(msg)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid2}
-                ki1.sendMessage(msg)
+                cl.sendMessage(msg)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid3}
-                ki1.sendMessage(msg)
+                cl.sendMessage(msg)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid4}
-                ki1.sendMessage(msg)
+                cl.sendMessage(msg)
                 msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid5}
+                cl.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid6}
+                cl.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid7}
+                cl.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid8}
+                cl.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid9}
+                cl.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid10}
+                cl.sendMessage(msg)
 
             elif msg.text.lower() == '#บอท':
                 msg.contentType = 13
@@ -1946,6 +2181,24 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid4}
                 ki4.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid5}
+                ki5.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid6}
+                ki6.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid7}
+                ki7.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid8}
+                ki8.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid9}
+                ki9.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Amid10}
+                ki10.sendMessage(msg)
 
 
             elif "คท" == msg.text:
@@ -1994,6 +2247,12 @@ def bot(op):
                 ki2.sendMessage(msg)
                 ki3.sendMessage(msg)
                 ki4.sendMessage(msg)
+                ki5.sendMessage(msg)
+                ki6.sendMessage(msg)
+                ki7.sendMessage(msg)
+                ki8.sendMessage(msg)
+                ki9.sendMessage(msg)
+                ki10.sendMessage(msg)
             elif msg.text in ["Lol"]:
                 msg.contentType = 7
                 msg.text = None
@@ -2154,7 +2413,7 @@ def bot(op):
                         pass
             elif msg.text.lower() in ["admins","mee","ผู้สร้าง"]:
                 msg.contentType = 13
-                adm = 'u699fc4f595f50243617ca6cc4ec773c8'
+                adm = 'u449034c15042f01e5356cb2695154167'
                 msg.contentMetadata = {'mid': adm}
                 ki1.sendMessage(msg)
                 ki1.sendText(msg.to,"Add Line http://line.me/ti/p/_9io7edD7W")
@@ -2164,7 +2423,7 @@ def bot(op):
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '1'}
                 msg.text = None
-                ki1.sendMessage(msg)
+                cl.sendMessage(msg)
 
             elif msg.text in ["คิก1 แจก","Gift 1"]:
                 msg.contentType = 9
@@ -2205,6 +2464,54 @@ def bot(op):
                                     'MSGTPL': '5'}
                 msg.text = None
                 ki4.sendMessage(msg)
+
+            elif msg.text in ["คิก5 แจก","Gift 5"]:
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '6'}
+                msg.text = None
+                ki5.sendMessage(msg)
+
+            elif msg.text in ["คิก6 แจก","Gift 6"]:
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '7'}
+                msg.text = None
+                ki6.sendMessage(msg)
+
+            elif msg.text in ["คิก7 แจก","Gift 7"]:
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '8'}
+                msg.text = None
+                ki7.sendMessage(msg)
+
+            elif msg.text in ["คิก8 แจก"," Gift 8"]:
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '9'}
+                msg.text = None
+                ki8.sendMessage(msg)
+
+            elif msg.text in ["คิก9 แจก","Gift 9"]:
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '10'}
+                msg.text = None
+                ki9.sendMessage(msg)
+
+            elif msg.text in ["คิก10 แจก","Gift 10"]:
+                msg.contentType = 9
+                msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
+                                    'PRDTYPE': 'THEME',
+                                    'MSGTPL': '11'}
+                msg.text = None
+                ki10.sendMessage(msg)
                                                         
 #====================================================
 
@@ -2212,11 +2519,11 @@ def bot(op):
             elif msg.text in ["vps","kernel","Vps"]:
                  if msg.from_ in admin:
                      botKernel = subprocess.Popen(["uname","-svmo"], stdout=subprocess.PIPE).communicate()[0]
-                     ki1.sendText(msg.to, botKernel)
+                     cl.sendText(msg.to, botKernel)
                      print "[Command]Kernel executed"
                  else:
-                     ki1.sendText(msg.to,"Command denied.")
-                     ki1.sendText(msg.to,"Admin permission required.")
+                     cl.sendText(msg.to,"Command denied.")
+                     cl.sendText(msg.to,"Admin permission required.")
                      print "[Error]Command denied - Admin permission required"
 
             elif "ผู้สร้างกลุ่ม" == msg.text:
@@ -2227,15 +2534,15 @@ def bot(op):
                     M.to = msg.to
                     M.contentType = 13
                     M.contentMetadata = {'mid': GS}
-                    ki1.sendMessage(M)
+                    cl.sendMessage(M)
                 except:
                     W = group.members[0].mid
                     M = Message()
                     M.to = msg.to
                     M.contentType = 13
                     M.contentMetadata = {'mid': W}
-                    ki1.sendMessage(M)
-                    ki1.sendText(msg.to,"old user")
+                    cl.sendMessage(M)
+                    cl.sendText(msg.to,"old user")
             elif 'ขอเพลง ' in msg.text:
                 try:
                     textToSearch = (msg.text).replace('ขอเพลง ', "").strip()
@@ -2250,7 +2557,7 @@ def bot(op):
                     ki4.sendText(msg.to,"Could not find it")
 
             elif "#set" in msg.text:
-				ki.sendText(msg.to, "Let's see who lazy to type")
+				cl.sendText(msg.to, "Let's see who lazy to type")
 				try:
 					del wait2['readPoint'][msg.to]
 					del wait2['readMember'][msg.to]
@@ -2271,17 +2578,17 @@ def bot(op):
 							print rom
 							chiya += rom[1] + "\n"
 
-					ki.sendText(msg.to, "people who reading%s\n is this\n\n\nDate and time I started it:\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
+					cl.sendText(msg.to, "people who reading%s\n is this\n\n\nDate and time I started it:\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
 				else:
-					ki.sendText(msg.to, "read point not set\nReading point setting you send it it will send an esxisting one")
+					cl.sendText(msg.to, "read point not set\nReading point setting you send it it will send an esxisting one")
 
 
             elif msg.text in ["Myginfoid","ไอดีกลุ่ม ทั้งหมด"]:
-                gid = ki.getGroupIdsJoined()
+                gid = cl.getGroupIdsJoined()
                 g = ""
                 for i in gid:
                     g += "[%s]:%s\n" % (cl.getGroup(i).name,i)
-                ki.sendText(msg.to,g)
+                cl.sendText(msg.to,g)
 
             elif msg.text in ["P1 invite","P1 Invite"]:
                 wait["ainvite"] = True
@@ -2324,6 +2631,12 @@ def bot(op):
                         ki2.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
 
                         ki1.sendText(msg.to,"[SELF BOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
                         ki2.sendText(msg.to,"[Do not think  will try.]")
@@ -2351,6 +2664,18 @@ def bot(op):
                         time.sleep(0.0)
                         ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.0)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.0)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.0)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.0)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.0)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.0)
+                        ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.0)
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -2370,7 +2695,19 @@ def bot(op):
                         ki3.leaveGroup(msg.to)
                         ki4.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki4.leaveGroup(msg.to)
-                        
+                        ki5.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki5.leaveGroup(msg.to)
+                        ki6.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki6.leaveGroup(msg.to)
+                        ki7.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki7.leaveGroup(msg.to)
+                        ki8.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki8.leaveGroup(msg.to)
+                        ki9.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki9.leaveGroup(msg.to)
+                        ki10.sendText(msg.to,"Bye~Bye\ลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki10.leaveGroup(msg.to)
+
                     except:
                         pass
 
@@ -2382,6 +2719,12 @@ def bot(op):
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
                         ki4.leaveGroup(msg.to)
+                        ki5.leaveGroup(msg.to)
+                        ki6.leaveGroup(msg.to)
+                        ki7.leaveGroup(msg.to)
+                        ki8.leaveGroup(msg.to)
+                        ki9.leaveGroup(msg.to)
+                        ki10.leaveGroup(msg.to)
 
                     except:
                         pass
@@ -2389,7 +2732,7 @@ def bot(op):
 
 
             elif "#v10" in msg.text:
-                ki1.sendText(msg.to,"""[SELF BOT]\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
+                cl.sendText(msg.to,"""[SELF BOT]\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
 คำสั่งบอท siri
 คำนี้เป็นการล็อกห้องสั่งแล้วทุกคนจะทำอะไรไม่ได้นอกจากเจ้าของห้องทำได้คนเดียวเช่น•เปิดลิงค์•เชิญเพื่อน•เปลี่ยนรูปกลุ่ม•เปลี่ยนชื่อกลุ่มไรแบบนี้• บอทจะไม่เตะเเอทมินทุกกรณี
 ชุดล๊อกห้อง
@@ -2478,7 +2821,7 @@ http://line.me/ti/p/_9io7edD7W
             elif msg.text in ["invite on"]:
                 if msg.from_ in admin:
                  wait["winvite"] = False
-                 ki1.sendText(msg.to,"ปิดการเชิญ แล้ว.")
+                 cl.sendText(msg.to,"ปิดการเชิญ แล้ว.")
             elif msg.text in ["Bot1 invite contact","1เชิญ"]:
                 if msg.from_ in admin:
                  wait["ainvite"] = True
@@ -2611,8 +2954,8 @@ http://line.me/ti/p/_9io7edD7W
             elif msg.text in ["Selfbot"]:
 				msg.contentType = 13
 				msg.contentMetadata = {'mid': mid}
-				ki1.sendMessage(msg)
-				ki1.sendText(msg.to,"[SELFBOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+				cl.sendMessage(msg)
+				cl.sendText(msg.to,"[SELFBOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
             elif "ไอดี" == msg.text:
                 key = msg.to
                 ki1.sendText(msg.to, key)
@@ -2621,7 +2964,7 @@ http://line.me/ti/p/_9io7edD7W
                    key = eval(msg.contentMetadata["MENTION"])
                    key1 = key["MENTIONEES"][0]["M"]
                    mi = cl.getContact(key1)
-                   cl.sendText(msg.to,"Mid:" + key1)
+                   ki1.sendText(msg.to,"Mid:" + key1)
 
             elif "Mid:" in msg.text:
                 mmid = msg.text.replace("Mid:","")
@@ -2629,7 +2972,25 @@ http://line.me/ti/p/_9io7edD7W
                 msg.contentMetadata = {"mid":mmid}
                 ki1.sendMessage(msg)
 
+ #           elif "Phet Keyy" in msg.text:
+ #               cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[{PHET HACK BOT}] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 #\n\n􀜁􀇔􏿿[Kb1 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[B Cancel]\n􀜁􀇔􏿿[kick @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[Pb1 Gift]\n􀜁􀇔􏿿[Pb1 bye]\n\n
 
+#❦❧〖฿❂Ŧ〗☞ᵀËÄM ທஇລ❂ق B❂T✓
+#​❦❧ ᵀËÄM ℓℓπ้ी૪ B❂T ✓
+#❦❧ ᵀËÄM ທஇລ❂قB❂T ✓
+#☠Ҝŋ β☢ȶȶ ƿℓαÿєᴿ☠
+#✍ Ŧ€₳M ж Ħ₳ʗҜ฿❂Ŧ ✈​
+#Ŧ€₳M ​✍ ທஇລ❂قীள้௭ิњ ✈
+#☢Ŧ€₳M≈ನန้ণএ≈฿❂Ŧ☢
+#･⋆ ざঝণのঝ  ⋆ ･
+#♤ のю४ণধபӘທ ♤
+#🇹?? ฿ΘŧŧĽÎη℮Ŧђάίłάήđ 🇹🇭
+
+#[By.🐯 हईທຮຮๅજईह 🐯]
+#[By.β•`BF.บั้ม•`]
+#[By.Gυ Tєʌм HʌcκBoт]
+#[By.❦〖Ᵽɧëȶ〗☞ᵀËÄM ທஇລ❂ق B❂T✓]
+#""")
 
             elif msg.text.lower() == 'ยกเลิก1':
                 if msg.toType == 2:
@@ -2652,7 +3013,7 @@ http://line.me/ti/p/_9io7edD7W
                 msg.contentType = 13
                 _name = msg.text.replace("คท @","")
                 _nametarget = _name.rstrip(' ')
-                gs = ki1.getGroup(msg.to)
+                gs = cl.getGroup(msg.to)
                 for g in gs.members:
                     if _nametarget == g.displayName:
                         msg.contentMetadata = {'mid': g.mid}
@@ -2679,9 +3040,9 @@ http://line.me/ti/p/_9io7edD7W
 									wait["blacklist"][target] = True
 									f=codecs.open('st2__b.json','w','utf-8')
 									json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
-									ki1.sendText(msg.to,"😏")
+									cl.sendText(msg.to,"😏")
                                 except:
-                                    ki1.sendText(msg.to,"😏")
+                                    cl.sendText(msg.to,"😏")
 
             elif "แบนหมด" in msg.text:
                        nk0 = msg.text.replace("แบนหมด","")
@@ -2703,9 +3064,9 @@ http://line.me/ti/p/_9io7edD7W
 									wait["blacklist"][target] = True
 									f=codecs.open('st2__b.json','w','utf-8')
 									json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
-									ki1.sendText(msg.to,"Target Locked")
+									cl.sendText(msg.to,"Target Locked")
                                 except:
-                                    ki1.sendText(msg.to,"Error")
+                                    cl.sendText(msg.to,"Error")
 
             elif "ลบแบน ทั้งหมด" in msg.text:
                        nk0 = msg.text.replace("ลบแบน ทั้งหมด","")
@@ -2727,16 +3088,16 @@ http://line.me/ti/p/_9io7edD7W
 									del wait["blacklist"][target]
 									f=codecs.open('st2__b.json','w','utf-8')
 									json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
-									ki1.sendText(msg.to,"Target Unlocked")
+									cl.sendText(msg.to,"Target Unlocked")
                                 except:
-                                    ki1.sendText(msg.to,"Error")
+                                    cl.sendText(msg.to,"Error")
 
             elif "Mid" == msg.text:
                 ki1.sendText(msg.to,mid)			
 
             elif msg.text == "กลุ่ม":
                 if msg.toType == 2:
-                    ginfo = ki1.getGroup(msg.to)
+                    ginfo = cl.getGroup(msg.to)
                     try:
                         gCreator = ginfo.creator.displayName
                     except:
@@ -2755,9 +3116,9 @@ http://line.me/ti/p/_9io7edD7W
                         ki1.sendText(msg.to,"Nama Gourp:\n" + str(ginfo.name) + "\nGid:\n" + msg.to + "\nCreator:\n" + gCreator + "\nProfile:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
                 else:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Can not be used outside the group")
+                        cl.sendText(msg.to,"Can not be used outside the group")
                     else:
-                        ki1.sendText(msg.to,"Not for use less than group")
+                         cl.sendText(msg.to,"Not for use less than group")
             elif "Bot1@@" in msg.text:
                 group = cl.getGroup(msg.to)
                 k = len(group.members)//100
@@ -2778,6 +3139,12 @@ http://line.me/ti/p/_9io7edD7W
                 ki2.sendText(msg.to,"😈คิกเกอร์.2 รายงานตัว😈\n[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                 ki3.sendText(msg.to,"😈คิกเกอร์.3 รายงานตัว😈\n[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                 ki4.sendText(msg.to,"😈คิกเกอร์.4 รายงานตัว😈\n[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                ki5.sendText(msg.to,"😈คิกเกอร์.5 รายงานตัว😈\n[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                ki6.sendText(msg.to,"😈คิกเกอร์.6 รายงานตัว😈\n[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                ki7.sendText(msg.to,"😈คิกเกอร์.7 รายงานต้ว😈\n[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                ki8.sendText(msg.to,"😈คิกเกอร์.8 รายงานตีว😈\n[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                ki9.sendText(msg.to,"😈คิกเกอร์.9 รายงานตัว😈\n[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                ki10.sendText(msg.to,"😈คิกเกอร์.10 รายงานตัว😈\n[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
 
             elif "/พูด " in msg.text:
                                 bctxt = msg.text.replace("/พูด ","")
@@ -2785,61 +3152,73 @@ http://line.me/ti/p/_9io7edD7W
                                 ki2.sendText(msg.to,(bctxt))
                                 ki3.sendText(msg.to,(bctxt))
                                 ki4.sendText(msg.to,(bctxt))
+                                ki5.sendText(msg.to,(bctxt))
+                                ki6.sendText(msg.to,(bctxt))
+                                ki7.sendText(msg.to,(bctxt))
+                                ki8.sendText(msg.to,(bctxt))
+                                ki9.sendText(msg.to,(bctxt))
+                                ki10.sendText(msg.to,(bctxt))
 
             elif "All mid" == msg.text:
                 ki1.sendText(msg.to,Amid1)
                 ki2.sendText(msg.to,Amid2)
                 ki3.sendText(msg.to,Amid3)
                 ki4.sendText(msg.to,Amid4)
+                ki5.sendText(msg.to,Amid5)
+                ki6.sendText(msg.to,Amid6)
+                ki7.sendText(msg.to,Amid7)
+                ki8.sendText(msg.to,Amid8)
+                ki9.sendText(msg.to,Amid9)
+                ki10.sendText(msg.to,Amid10)
  
             elif msg.text in ["Protect:on","Protect on","เปิดป้องกัน"]:
                 if wait["protectionOn"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Already on\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Already on\n\n"+ datetime.today().strftime('%H:%M:%S'))
                     else:
-                        ki1.sendText(msg.to,"Protection On\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Protection On\n\n"+ datetime.today().strftime('%H:%M:%S'))
                 else:
                     wait["protectionOn"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Protection On\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Protection On\n\n"+ datetime.today().strftime('%H:%M:%S'))
                     else:
-                        ki1.sendText(msg.to,"Already on\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Already on\n\n"+ datetime.today().strftime('%H:%M:%S'))
             elif msg.text in ["Qr:off","Qr off"]:
                 if wait["qr"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Already off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Already off\n\n"+ datetime.today().strftime('%H:%M:%S'))
                     else:
-                        ki1.sendText(msg.to,"Protection QR PRO Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Protection QR PRO Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
                 else:
                     wait["qr"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Protection QR PRO Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Protection QR PRO Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
                     else:
-                        ki1.sendText(msg.to,"Already off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Already off\n\n"+ datetime.today().strftime('%H:%M:%S'))
             elif msg.text in ["Qr:on","Qr on"]:
                 if wait["qr"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Already on\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Already on\n\n"+ datetime.today().strftime('%H:%M:%S'))
                     else:
-                        ki1.sendText(msg.to,"Protection QR PRO On\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Protection QR PRO On\n\n"+ datetime.today().strftime('%H:%M:%S'))
                 else:
                     wait["qr"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Protection QR PRO On\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Protection QR PRO On\n\n"+ datetime.today().strftime('%H:%M:%S'))
                     else:
-                        ki1.sendText(msg.to,"Already on")
+                        cl.sendText(msg.to,"Already on")
             elif msg.text in ["Protect:off","Protect off","ปิดป้องกัน"]:
                 if wait["protectionOn"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Already off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Already off\n\n"+ datetime.today().strftime('%H:%M:%S'))
                     else:
-                        ki1.sendText(msg.to,"Protection Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Protection Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
                 else:
                     wait["protectionOn"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Protection Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Protection Off\n\n"+ datetime.today().strftime('%H:%M:%S'))
                     else:
-                        ki1.sendText(msg.to,"Already off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                        cl.sendText(msg.to,"Already off\n\n"+ datetime.today().strftime('%H:%M:%S'))
 #==================================================
             elif msg.text in ["เปิดกันรัน","เปิด กันรัน"]:
                         ki1.sendText(msg.to,"[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
@@ -2861,26 +3240,26 @@ http://line.me/ti/p/_9io7edD7W
 #=====================================================
             elif "เปิด ล็อคชื่อ" in msg.text:
                 if msg.to in wait['pname']:
-                    ki1.sendText(msg.to,"ล็อคชื่อ สำเร็จ.👌..")
+                    cl.sendText(msg.to,"ล็อคชื่อ สำเร็จ.👌..")
                 else:
-                    ki1.sendText(msg.to,"bone..")
+                    cl.sendText(msg.to,"bone..")
                     wait['pname'][msg.to] = True
                     wait['pro_name'][msg.to] = cl.getGroup(msg.to).name
             elif "ปิด ล็อคชื่อ" in msg.text:
                 if msg.to in wait['pname']:
-                    ki1.sendText(msg.to,"ปิด ล็อคชื่อแล้ว.👌.")
+                    cl.sendText(msg.to,"ปิด ล็อคชื่อแล้ว.👌.")
                     del wait['pname'][msg.to]
                 else:
-                    ki1.sendText(msg.to,"bone..")
+                    cl.sendText(msg.to,"bone..")
 					
             elif "ปิด เชิญ" == msg.text:
 				gid = msg.to
 				autocancel[gid] = "poni"
-				ki1.sendText(msg.to,"ปิดการเชิญเข้ากลุ่ม\nของสมาชิกแล้ว.👌.")
+				cl.sendText(msg.to,"ปิดการเชิญเข้ากลุ่ม\nของสมาชิกแล้ว.👌.")
             elif "เปิด เชิญ" == msg.text:
 				try:
 					del autocancel[msg.to]
-					ki1.sendText(msg.to,"เปิด ให้สมาชิกทุกคน\nสามรถเชิญเพื่อนได้.👌.")
+					cl.sendText(msg.to,"เปิด ให้สมาชิกทุกคน\nสามรถเชิญเพื่อนได้.👌.")
 				except:
 					pass
             elif "Cn: " in msg.text:
@@ -2888,16 +3267,16 @@ http://line.me/ti/p/_9io7edD7W
                 if len(string.decode('utf-8')) <= 20:
                     profile = cl.getProfile()
                     profile.displayName = string
-                    ki1.updateProfile(profile)
-                    ki1.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    cl.updateProfile(profile)
+                    cl.sendText(msg.to,"Name " + string + " Done Bosqu")
             elif msg.text in ["invite:on"]:
                 if msg.from_ in admin:
                  wait["winvite"] = True
-                 ki1.sendText(msg.to,"send contact")
+                 cl.sendText(msg.to,"send contact")
             elif "Mc " in msg.text:
                 key = eval(msg.contentMetadata["MENTION"])
                 key1 = key["MENTIONEES"][0]["M"]
-                ki1.sendText(msg.to,"Mc: " + key1)
+                cl.sendText(msg.to,"Mc: " + key1)
             elif "Mc: " in msg.text:
                 mmid = msg.text.replace("Mc: ","")
                 msg.contentType = 13
@@ -2906,19 +3285,25 @@ http://line.me/ti/p/_9io7edD7W
                 ki2.sendMessage(msg)
                 ki3.sendMessage(msg)
                 ki4.sendMessage(msg)
+                ki5.sendMessage(msg)
+                ki6.sendMessage(msg)
+                ki7.sendMessage(msg)
+                ki8.sendMessage(msg)
+                ki9.sendMessage(msg)
+                ki10.sendMessage(msg)
 
             elif msg.text in ["K on","เปิด คท","Contact on","K:on"]:
                 if wait["contact"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah on Bosqu")
+                        cl.sendText(msg.to,"Sudah on Bosqu")
                     else:
-                        ki1.sendText(msg.to,"Ok Bosqu")
+                        cl.sendText(msg.to,"Ok Bosqu")
                 else:
                     wait["contact"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah on Bosqu")
+                        cl.sendText(msg.to,"Sudah on Bosqu")
                     else:
-                        ki1.sendText(msg.to,"Ok Bosqu")
+                        cl.sendText(msg.to,"Ok Bosqu")
             elif msg.text in ["contact v"]:
                 if msg.from_ in admin:
                  wait["winvite"] = True
@@ -2926,40 +3311,40 @@ http://line.me/ti/p/_9io7edD7W
             elif msg.text in ["K:off","ปิด คท","Contact off","K off"]:
                 if wait["contact"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah off Bosqu")
+                        cl.sendText(msg.to,"Sudah off Bosqu")
                     else:
-                        ki1.sendText(msg.to,"Ok Bosqu ")
+                        cl.sendText(msg.to,"Ok Bosqu ")
                 else:
                     wait["contact"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah on Bosqu")
+                        cl.sendText(msg.to,"Sudah on Bosqu")
                     else:
-                        ki1.sendText(msg.to,"Ok Bosqu")
+                        cl.sendText(msg.to,"Ok Bosqu")
 
             elif msg.text in ["Auto join on","Join on","Join:on","เปิด เข้ากลุ่ม","เปิดเข้ากลุ่ม"]:
                 if wait["autoJoin"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah on Bosqu")
+                        cl.sendText(msg.to,"Sudah on Bosqu")
                     else:
-                        ki1.sendText(msg.to,"Ok Bosqu")
+                        cl.sendText(msg.to,"Ok Bosqu")
                 else:
                     wait["autoJoin"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah on Bosqu")
+                        cl.sendText(msg.to,"Sudah on Bosqu")
                     else:
-                        ki1.sendText(msg.to,"Ok Bosqu")
+                        cl.sendText(msg.to,"Ok Bosqu")
             elif msg.text in ["Join off","Auto join off","ปิด เข้ากลุ่ม","Join:off","ปิดเข้ากลุ่ม"]:
                 if wait["autoJoin"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah off Bosqu")
+                        cl.sendText(msg.to,"Sudah off Bosqu")
                     else:
-                        ki1.sendText(msg.to,"Ok Bosqu")
+                        cl.sendText(msg.to,"Ok Bosqu")
                 else:
                     wait["autoJoin"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah off Bosqu")
+                        cl.sendText(msg.to,"Sudah off Bosqu")
                     else:
-                        ki1.sendText(msg.to,"Ok Bosqu")
+                        cl.sendText(msg.to,"Ok Bosqu")
 
             elif "Gcancel:" in msg.text:
                 try:
@@ -3041,16 +3426,16 @@ http://line.me/ti/p/_9io7edD7W
                 else:
                     wait["likeOn"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"เปิดระบบออโต้ไลค์.👌")
+                        cl.sendText(msg.to,"เปิดระบบออโต้ไลค์.👌")
 
             elif msg.text in ["ปิด ไลค์","Like off"]:
                 if wait["likeOn"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"ปิดอยู่แล้ว")
+                        cl.sendText(msg.to,"ปิดอยู่แล้ว")
                 else:
                     wait["likeOn"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"ปิดระบบออโต้ไลค์.👌")
+                        cl.sendText(msg.to,"ปิดระบบออโต้ไลค์.👌")
 
 #========================================
 #========================================
@@ -3110,11 +3495,11 @@ http://line.me/ti/p/_9io7edD7W
 #========================================
 	    elif msg.text in ["รีบอท","รีบูต"]:
 		if msg.from_ in Creator:
-		    ki1.sendText(msg.to, "เชลบอท ได้รีสตาร์ตแล้ว.👌\nกรุณาตั้งค่าใหม่อีกครั้ง.👈")
+		    cl.sendText(msg.to, "เชลบอท ได้รีสตาร์ตแล้ว.👌\nกรุณาตั้งค่าใหม่อีกครั้ง.👈")
 		    restart_program()
 		    print "@Restart"
 		else:
-		    ki1.sendText(msg.to, "No Access")	    
+		    cl.sendText(msg.to, "No Access")	    
 #========================================
             elif msg.text.lower() == 'รีคิก':
                 if msg.toType == 2:
@@ -3125,6 +3510,12 @@ http://line.me/ti/p/_9io7edD7W
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
                         ki4.leaveGroup(msg.to)
+                        ki5.leaveGroup(msg.to)
+                        ki6.leaveGroup(msg.to)
+                        ki7.leaveGroup(msg.to)
+                        ki8.leaveGroup(msg.to)
+                        ki9.leaveGroup(msg.to)
+                        ki10.leaveGroup(msg.to)
 
                         G.preventJoinByTicket = False
                         cl.updateGroup(G)
@@ -3134,46 +3525,112 @@ http://line.me/ti/p/_9io7edD7W
                         ki2.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki1.leaveGroup(msg.to)
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
                         ki4.leaveGroup(msg.to)
+                        ki5.leaveGroup(msg.to)
+                        ki6.leaveGroup(msg.to)
+                        ki7.leaveGroup(msg.to)
+                        ki8.leaveGroup(msg.to)
+                        ki9.leaveGroup(msg.to)
+                        ki10.leaveGroup(msg.to)
                         ki1.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki2.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki1.leaveGroup(msg.to)
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
                         ki4.leaveGroup(msg.to)
+                        ki5.leaveGroup(msg.to)
+                        ki6.leaveGroup(msg.to)
+                        ki7.leaveGroup(msg.to)
+                        ki8.leaveGroup(msg.to)
+                        ki9.leaveGroup(msg.to)
+                        ki10.leaveGroup(msg.to)
                         ki1.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki2.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki1.leaveGroup(msg.to)
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
                         ki4.leaveGroup(msg.to)
+                        ki5.leaveGroup(msg.to)
+                        ki6.leaveGroup(msg.to)
+                        ki7.leaveGroup(msg.to)
+                        ki8.leaveGroup(msg.to)
+                        ki9.leaveGroup(msg.to)
+                        ki10.leaveGroup(msg.to)
                         ki1.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki2.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki1.leaveGroup(msg.to)
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
                         ki4.leaveGroup(msg.to)
+                        ki5.leaveGroup(msg.to)
+                        ki6.leaveGroup(msg.to)
+                        ki7.leaveGroup(msg.to)
+                        ki8.leaveGroup(msg.to)
+                        ki9.leaveGroup(msg.to)
+                        ki10.leaveGroup(msg.to)
                         ki1.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki2.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki1.leaveGroup(msg.to)
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
                         ki4.leaveGroup(msg.to)
+                        ki5.leaveGroup(msg.to)
+                        ki6.leaveGroup(msg.to)
+                        ki7.leaveGroup(msg.to)
+                        ki8.leaveGroup(msg.to)
+                        ki9.leaveGroup(msg.to)
+                        ki10.leaveGroup(msg.to)
                         ki1.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki2.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -3182,13 +3639,13 @@ http://line.me/ti/p/_9io7edD7W
                         G.preventJoinByTicket(G)
                         ki1.updateGroup(G)
 #================================================#           
-elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
+            elif msg.text in ["Gcreator:inv","เชิญเเอทมิน"]:
 	           if msg.from_ in admin:
                     ginfo = cl.getGroup(msg.to)
                     gCreator = ginfo.creator.mid
                     try:
-                       ki1.findAndAddContactsByMid(gCreator)
-                       ki1.inviteIntoGroup(msg.to,[gCreator])
+                       cl.findAndAddContactsByMid(gCreator)
+                       cl.inviteIntoGroup(msg.to,[gCreator])
                        print "success inv gCreator"
                     except:
                        pass
@@ -3268,6 +3725,120 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                                ki4.sendText(msg.to, "คิกเกอร์ 4.👌\nแปลงร่าง อวตาง\nเสร็จเรียบร้อย (^_^)")
                             except Exception as e:
                                 print e
+
+            elif "คิก5 แปลงร่าง @" in msg.text:
+                   print "[COPY] Ok"
+                   _name = msg.text.replace("คิก5 แปลงร่าง @","")
+                   _nametarget = _name.rstrip('  ')
+                   gs = ki5.getGroup(msg.to)
+                   targets = []
+                   for g in gs.members:
+                       if _nametarget == g.displayName:
+                           targets.append(g.mid)
+                   if targets == []:
+                       ki5.sendText(msg.to, "Not Found...")
+                   else:
+                       for target in targets:
+                            try:
+                               ki5.CloneContactProfile(target)
+                               ki5.sendText(msg.to, "คิกเกอร์ 5.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+                            except Exception as e:
+                                print e
+
+            elif "คิก6 แปลงร่าง @" in msg.text:
+                   print "[COPY] Ok"
+                   _name = msg.text.replace("คิก6 แปลงร่าง @","")
+                   _nametarget = _name.rstrip('  ')
+                   gs = ki6.getGroup(msg.to)
+                   targets = []
+                   for g in gs.members:
+                       if _nametarget == g.displayName:
+                           targets.append(g.mid)
+                   if targets == []:
+                       ki6.sendText(msg.to, "Not Found...")
+                   else:
+                       for target in targets:
+                            try:
+                               ki6.CloneContactProfile(target)
+                               ki6.sendText(msg.to, "คิกเกอร์ 6.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+                            except Exception as e:
+                                print e
+
+            elif "คิก7 แปลงร่าง @" in msg.text:
+                   print "[COPY] Ok"
+                   _name = msg.text.replace("คิก7 แปลงร่าง @","")
+                   _nametarget = _name.rstrip('  ')
+                   gs = ki7.getGroup(msg.to)
+                   targets = []
+                   for g in gs.members:
+                       if _nametarget == g.displayName:
+                           targets.append(g.mid)
+                   if targets == []:
+                       ki7.sendText(msg.to, "Not Found...")
+                   else:
+                       for target in targets:
+                            try:
+                               ki7.CloneContactProfile(target)
+                               ki7.sendText(msg.to, "คิกเกอร์ 7.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+                            except Exception as e:
+                                print e
+
+            elif "คิก8 แปลงร่าง @" in msg.text:
+                   print "[COPY] Ok"
+                   _name = msg.text.replace("คิก8 แปลงร่าง @","")
+                   _nametarget = _name.rstrip('  ')
+                   gs = ki8.getGroup(msg.to)
+                   targets = []
+                   for g in gs.members:
+                       if _nametarget == g.displayName:
+                           targets.append(g.mid)
+                   if targets == []:
+                       ki8.sendText(msg.to, "Not Found...")
+                   else:
+                       for target in targets:
+                            try:
+                               ki8.CloneContactProfile(target)
+                               ki8.sendText(msg.to, "คิกเกอร์ 8.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+                            except Exception as e:
+                                print e
+
+            elif "คิก9 แปลงร่าง @" in msg.text:
+                   print "[COPY] Ok"
+                   _name = msg.text.replace("คิก9 แปลงร่าง @","")
+                   _nametarget = _name.rstrip('  ')
+                   gs = ki9.getGroup(msg.to)
+                   targets = []
+                   for g in gs.members:
+                       if _nametarget == g.displayName:
+                           targets.append(g.mid)
+                   if targets == []:
+                       ki9.sendText(msg.to, "Not Found...")
+                   else:
+                       for target in targets:
+                            try:
+                               ki9.CloneContactProfile(target)
+                               ki9.sendText(msg.to, "คิกเกอร์ 9.👌\nแปลงร้าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+                            except Exception as e:
+                                print e
+
+            elif "คิก10 แปลงร่าง @" in msg.text:
+                   print "[COPY] Ok"
+                   _name = msg.text.replace("คิก10 แปลงร่าง @","")
+                   _nametarget = _name.rstrip('  ')
+                   gs = ki10.getGroup(msg.to)
+                   targets = []
+                   for g in gs.members:
+                       if _nametarget == g.displayName:
+                           targets.append(g.mid)
+                   if targets == []:
+                       ki10.sendText(msg.to, "Not Found...")
+                   else:
+                       for target in targets:
+                            try:
+                               ki10.CloneContactProfile(target)
+                               ki10.sendText(msg.to, "คิกเกอร์ 10.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+                            except Exception as e:
+                                print e
 #=======================================================#
 
             elif "คิกทั้งหมด @" in msg.text:
@@ -3295,6 +3866,24 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
 
                                ki4.CloneContactProfile(target)
                                ki4.sendText(msg.to, "คิกเกอร์ 4.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+
+                               ki5.CloneContactProfile(target)
+                               ki5.sendText(msg.to, "คิกเกอร์ 5.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+
+                               ki6.CloneContactProfile(target)
+                               ki6.sendText(msg.to, "คิกเกอร์ 6.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+
+                               ki7.CloneContactProfile(target)
+                               ki7.sendText(msg.to, "คิกเกอร์ 7.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+
+                               ki8.CloneContactProfile(target)
+                               ki8.sendText(msg.to, "คิกเกอร์ 8.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+
+                               ki9.CloneContactProfile(target)
+                               ki9.sendText(msg.to, "คิกเกอร์ 9.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
+
+                               ki10.CloneContactProfile(target)
+                               ki10.sendText(msg.to, "คิกเกอร์ 10.👌\nแปลงร่าง อวตาล\nเสร็จเรียบร้อย (^_^)")
 
                             except Exception as e:
                                 print e
@@ -3440,6 +4029,48 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                 if wait["lang"] == "JP":
                     ki4.sendText(msg.to,"คิกเกอร์ 4\nปฏิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
 
+            elif msg.text in ["Reject5","คิก5 ลบรัน"]:
+                gid = ki5.getGroupIdsInvited()
+                for i in gid:
+                    ki5.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    ki5.sendText(msg.to,"คิกเกอร์ 5\nปฏิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
+
+            elif msg.text in ["Reject6","คิก6 ลบรัน"]:
+                gid = ki6.getGroupIdsInvited()
+                for i in gid:
+                    ki6.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    ki6.sendText(msg.to,"คิกเกอร์ 6\nปฏิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
+
+            elif msg.text in ["Reject7","คิก7 ลบรัน"]:
+                gid = ki7.getGroupIdsInvited()
+                for i in gid:
+                    ki7.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    ki7.sendText(msg.to,"คิกเกอร์ 7\nปฏิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
+
+            elif msg.text in ["Reject8","คิก8 ลบรัน"]:
+                gid = ki8.getGroupIdsInvited()
+                for i in gid:
+                    ki8.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    ki8.sendText(msg.to,"คิกเกอร์ 8\nปฏิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
+
+            elif msg.text in ["Reject9","คิก9 ลบรัน"]:
+                gid = ki9.getGroupIdsInvited()
+                for i in gid:
+                    ki9.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    ki9.sendText(msg.to,"คิกเกอร์ 9\nปฏิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
+
+            elif msg.text in ["Reject10","คิก10 ลบรัน"]:
+                gid = ki10.getGroupIdsInvited()
+                for i in gid:
+                    ki10.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    ki10.sendText(msg.to,"คิกเกอร์ 10\nปฏิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
+
                 else:
                     cl.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["Y1 rgroups","Y1 rgroup"]:
@@ -3504,8 +4135,8 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
 
             elif msg.text in ["ลบแชต"]:
                 cl.removeAllMessages(op.param2)
-                ki1.sendText(msg.to,"ทำการลบเรียบร้อย👌")
-                ki1.sendText(msg.to,"Ok")
+                cl.sendText(msg.to,"ทำการลบเรียบร้อย👌")
+                cl.sendText(msg.to,"Ok")
 
 #            elif "รัน @" in msg.text:
 #                _name = msg.text.replace("รัน @","")
@@ -3520,10 +4151,10 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
 #========================================
 
             elif msg.text.lower() == 'ออน':  
-                ki2.sendText(msg.to, "โปรดรอสักครู่....")
+                cl.sendText(msg.to, "โปรดรอสักครู่....")
                 eltime = time.time() - mulai
                 van = "•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•\n\nระยะเวลาที่บอททำงาน\n"+waktu(eltime)
-                ki1.sendText(msg.to,van)
+                cl.sendText(msg.to,van)
 #========================================
 
             elif "Message set:" in msg.text:
@@ -3593,100 +4224,100 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
             elif "Hhx1:" in msg.text:
                 c = msg.text.replace("Hhx1:","")
                 if c in [""," ","\n",None]:
-                    ki1.sendText(msg.to,"เกิดข้อผิดพลาด..!!")
+                    cl.sendText(msg.to,"เกิดข้อผิดพลาด..!!")
                 else:
                     wait["acomment"] = c
-                    ki1.sendText(msg.to,"➠ ตั้งค่าข้อความต้อนรับ👌\n\n" + c)
+                    cl.sendText(msg.to,"➠ ตั้งค่าข้อความต้อนรับ👌\n\n" + c)
 
             elif "Hhx2:" in msg.text:
                 c = msg.text.replace("Hhx2:","")
                 if c in [""," ","\n",None]:
-                    ki1.sendText(msg.to,"เกิดข้อผิดพลาด..!!")
+                    cl.sendText(msg.to,"เกิดข้อผิดพลาด..!!")
                 else:
                     wait["bcomment"] = c
-                    ki1.sendText(msg.to,"➠ ตั้งค่าข้อความกล่าวถึงคนออกจากกลุ่ม👌\n\n" + c)
+                    cl.sendText(msg.to,"➠ ตั้งค่าข้อความกล่าวถึงคนออกจากกลุ่ม👌\n\n" + c)
 
             elif "Hhx3:" in msg.text:
                 c = msg.text.replace("Hhx3:","")
                 if c in [""," ","\n",None]:
-                    ki1.sendText(msg.to,"เกิดข้อผิดพลาด..!!")
+                    cl.sendText(msg.to,"เกิดข้อผิดพลาด..!!")
                 else:
                     wait["ccomment"] = c
-                    ki1.sendText(msg.to,"➠ ตั้งค่าข้อความกล่าวถึงคนลบสมาชิก👌\n\n" + c)
+                    cl.sendText(msg.to,"➠ ตั้งค่าข้อความกล่าวถึงคนลบสมาชิก👌\n\n" + c)
 
             elif msg.text in ["Hhx1 on"]:
                 if wait["acommentOn"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ เปิดข้อความต้อนรับเเล้ว👌")
+                        cl.sendText(msg.to,"➠ เปิดข้อความต้อนรับเเล้ว👌")
                     else:
-                        ki1.sendText(msg.to,"Already on")
+                        cl.sendText(msg.to,"Already on")
                 else:
                     wait["acommentOn"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ เปิดข้อความต้อนรับเเล้ว👌")
+                        cl.sendText(msg.to,"➠ เปิดข้อความต้อนรับเเล้ว👌")
                     else:
-                        ki1.sendText(msg.to,"Already on")
+                        cl.sendText(msg.to,"Already on")
             elif msg.text in ["Hhx2 on"]:
                 if wait["bcommentOn"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ เปิดข้อความกล่าวถึงคนออกจากกลุ่ม👌")
+                        cl.sendText(msg.to,"➠ เปิดข้อความกล่าวถึงคนออกจากกลุ่ม👌")
                     else:
-                        ki1.sendText(msg.to,"Already on")
+                        cl.sendText(msg.to,"Already on")
                 else:
                     wait["bcommentOn"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ เปิดข้อความกล่าวถึงคนออกจากกลุ่ม👌")
+                        cl.sendText(msg.to,"➠ เปิดข้อความกล่าวถึงคนออกจากกลุ่ม👌")
                     else:
-                        ki1.sendText(msg.to,"Already on")
+                        cl.sendText(msg.to,"Already on")
             elif msg.text in ["Hhx3 on"]:
                 if wait["ccommentOn"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ เปิดข้อความกล่าวถึงคนลบสมาชิก👌")
+                        cl.sendText(msg.to,"➠ เปิดข้อความกล่าวถึงคนลบสมาชิก👌")
                     else:
-                        ki1.sendText(msg.to,"Already on")
+                        cl.sendText(msg.to,"Already on")
                 else:
                     wait["ccommentOn"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ เปิดข้อความกล่าวถึงคนลบสมาชิก👌")
+                        cl.sendText(msg.to,"➠ เปิดข้อความกล่าวถึงคนลบสมาชิก👌")
                     else:
-                        ki1.sendText(msg.to,"Already on")
+                        cl.sendText(msg.to,"Already on")
 
             elif msg.text in ["Hhx1 off"]:
                 if wait["acommentOn"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ ปิดข้อความต้อนรับเเล้ว👌")
+                        cl.sendText(msg.to,"➠ ปิดข้อความต้อนรับเเล้ว👌")
                     else:
-                        ki1.sendText(msg.to,"Already off")
+                        cl.sendText(msg.to,"Already off")
                 else:
                     wait["acommentOn"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ ปิดข้อความต้อนรับเเล้ว👌")
+                        cl.sendText(msg.to,"➠ ปิดข้อความต้อนรับเเล้ว👌")
                     else:
-                        ki1.sendText(msg.to,"Already off")
+                        cl.sendText(msg.to,"Already off")
             elif msg.text in ["Hhx2 off"]:
                 if wait["bcommentOn"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ ปิดข้อความกล่าวถึงคนออกจากกลุ่ม👌")
+                        cl.sendText(msg.to,"➠ ปิดข้อความกล่าวถึงคนออกจากกลุ่ม👌")
                     else:
-                        ki1.sendText(msg.to,"Already off")
+                        cl.sendText(msg.to,"Already off")
                 else:
                     wait["bcommentOn"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ ปิดข้อความกล่าวถึงคนออกจากกลุ่ม👌")
+                        cl.sendText(msg.to,"➠ ปิดข้อความกล่าวถึงคนออกจากกลุ่ม👌")
                     else:
-                        ki1.sendText(msg.to,"Already off")
+                        cl.sendText(msg.to,"Already off")
             elif msg.text in ["Hhx3 off"]:
                 if wait["ccommentOn"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ ปิดข้อความกล่าวถึงคนลบสมาชิก👌")
+                        cl.sendText(msg.to,"➠ ปิดข้อความกล่าวถึงคนลบสมาชิก👌")
                     else:
-                        ki1.sendText(msg.to,"Already off")
+                        cl.sendText(msg.to,"Already off")
                 else:
                     wait["ccommentOn"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"➠ ปิดข้อความกล่าวถึงคนลบสมาชิก👌")
+                        cl.sendText(msg.to,"➠ ปิดข้อความกล่าวถึงคนลบสมาชิก👌")
                     else:
-                        ki1.sendText(msg.to,"Already off")
+                        cl.sendText(msg.to,"Already off")
             elif msg.text in ["Gurl"]:
                 if msg.toType == 2:
                     uye = random.choice(KAC)
@@ -3762,10 +4393,10 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
 
             elif msg.text in ["ปิด นาฬิกา","Clock:off","Clock off","Jam off","Jam:off"]:
                 if wait["clock"] == False:
-                    ki1.sendText(msg.to,"already off")
+                    cl.sendText(msg.to,"already off")
                 else:
                     wait["clock"] = False
-                    ki1.sendText(msg.to,"done")
+                    cl.sendText(msg.to,"done")
 
             elif "ตั้งชื่อ: " in msg.text:
                 n = msg.text.replace("ตั้งชื่อ: ","")
@@ -3809,20 +4440,20 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                 print "[Command]dp executing"
                 _name = msg.text.replace("/ปก @","")
                 _nametarget = _name.rstrip('  ')
-                gs = ki1.getGroup(msg.to)
+                gs = cl.getGroup(msg.to)
                 targets = []
                 for g in gs.members:
                     if _nametarget == g.displayName:
                         targets.append(g.mid)
                 if targets == []:
-                    ki1.sendText(msg.to,"Contact not found")
+                    cl.sendText(msg.to,"Contact not found")
                 else:
                     for target in targets:
                         try:
                             contact = cl.getContact(target)
                             cu = cl.channel.getCover(target)
                             path = str(cu)
-                            ki1.sendImageWithUrl(msg.to, path)
+                            cl.sendImageWithUrl(msg.to, path)
                         except:
                             pass
                 print "[Command]dp executed"
@@ -3846,13 +4477,13 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                     steal2 = steal1.replace("@","")
                     steal3 = steal2.rstrip()
                     _name = steal3
-                    group = ki1.getGroup(msg.to)
+                    group = cl.getGroup(msg.to)
                     targets = []
                     for g in group.members:
                         if _name == g.displayName:
                             targets.append(g.mid)
                     if targets == []:
-                        ki1.sendText(msg.to,"Gak da orange")
+                        cl.sendText(msg.to,"Gak da orange")
                     else:
                         for target in targets:
                             try:
@@ -3862,23 +4493,23 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                                 except:
                                     image = "https://www.1and1.co.uk/digitalguide/fileadmin/DigitalGuide/Teaser/not-found-t.jpg"
                                 try:
-                                    ki1.sendImageWithUrl(msg.to,image)
+                                    cl.sendImageWithUrl(msg.to,image)
                                 except Exception as error:
-                                    ki1.sendText(msg.to,(error))
+                                    cl.sendText(msg.to,(error))
                                     pass
                             except:
-                                ki1.sendText(msg.to,"Error!")
+                                cl.sendText(msg.to,"Error!")
                                 break
                 else:
-                    ki1.sendText(msg.to,"Tidak bisa dilakukan di luar grup")
+                    cl.sendText(msg.to,"Tidak bisa dilakukan di luar grup")
 
 #===============================================
             elif msg.text in ["Sp","sp","Speed"]:
-                ki1.sendText(msg.to, "Progress.......")
+                cl.sendText(msg.to, "Progress.......")
                 start = time.time()
                 time.sleep(0.001)
                 elapsed_time = time.time() - start
-                ki1.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 print "[Command]Speed palsu executed"
             elif msg.text in ["Bot Speed"]:
                 ki1.sendText(msg.to, "Progress.......")
@@ -3888,13 +4519,19 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                 ki1.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 ki2.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 ki3.sendText(msg.to, "%sseconds" % (elapsed_time))    
-                ki4.sendText(msg.to, "%sseconds" % (elapsed_time))   
+                ki4.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                ki5.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                ki6.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                ki7.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                ki8.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                ki9.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                ki10.sendText(msg.to, "%sseconds" % (elapsed_time))    
 
 
                 print "[Command]Speed palsu executed"
 
             elif msg.text in ["Keybot"]:
-                ki1.sendText(msg.to, "SELFBOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
+                ki.sendText(msg.to, "SELFBOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
 
 #========================================
             elif msg.text in ["กลับร่าง","Mebb"]:
@@ -3938,7 +4575,7 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
               if msg.from_ in admin:
 					group = cl.getGroup(msg.to)
 					path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                                        ki1.sendImageWithUrl(msg.to,path)
+                                        cl.sendImageWithUrl(msg.to,path)
             elif "#Turn off bots" in msg.text:
                if msg.from_ in admsa:
                  try:
@@ -3950,12 +4587,12 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
 #-----------------------------------------------
             elif msg.text in ["ลิ้ง","url"]:
                 if msg.toType == 2:
-                    x = ki1.getGroup(msg.to)
+                    x = cl.getGroup(msg.to)
                     if x.preventJoinByTicket == True:
                         x.preventJoinByTicket = False
-                        ki1.updateGroup(x)
-                    gurl = ki1.reissueGroupTicket(msg.to)
-                    ki1.sendText(msg.to,"[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•" + gurl)
+                        cl.updateGroup(x)
+                    gurl = cl.reissueGroupTicket(msg.to)
+                    cl.sendText(msg.to,"[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•" + gurl)
                 else:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Can not be used outside the group")
@@ -3966,55 +4603,55 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
               if msg.from_ in admin:
                 if wait["Notifed"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"All Notifed On\n\nเปิดเเจ้งเเตือนของคุณเเล้ว")
+                        cl.sendText(msg.to,"All Notifed On\n\nเปิดเเจ้งเเตือนของคุณเเล้ว")
                     else:
-                        ki1.sendText(msg.to,"Done\n\nเปิดเเจ้งเเตือนของคุณเเล้ว")
+                        cl.sendText(msg.to,"Done\n\nเปิดเเจ้งเเตือนของคุณเเล้ว")
                 else:
                     wait["Notifed"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"All Notifed On\n\nเปิดเเจ้งเเตือนของคุณเเล้ว")
+                        cl.sendText(msg.to,"All Notifed On\n\nเปิดเเจ้งเเตือนของคุณเเล้ว")
                     else:
-                        ki1.sendText(msg.to,"Done\n\nเปิดเเจ้งเเตือนของคุณเเล้ว")
+                        cl.sendText(msg.to,"Done\n\nเปิดเเจ้งเเตือนของคุณเเล้ว")
             elif msg.text in ["Notifed off","ปิดแจ้งเตือน","M off"]:
               if msg.from_ in admin:
                 if wait["Notifed"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"All Notifed Off\n\nปิดเเจ้งเเตือนของคุณเเล้ว")
+                        cl.sendText(msg.to,"All Notifed Off\n\nปิดเเจ้งเเตือนของคุณเเล้ว")
                     else:
-                        ki1.sendText(msg.to,"Done\n\nปิดเเจ้งเเตือนของคุณเเล้ว")
+                        cl.sendText(msg.to,"Done\n\nปิดเเจ้งเเตือนของคุณเเล้ว")
                 else:
                     wait["Notifed"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"All Notifed Off\n\nปิดเเจ้งเเตือนของคุณเเล้ว")
+                        cl.sendText(msg.to,"All Notifed Off\n\nปิดเเจ้งเเตือนของคุณเเล้ว")
                     else:
-                        ki1.sendText(msg.to,"Done\n\nปิดเเจ้งเเตือนของคุณเเล้ว")
+                        cl.sendText(msg.to,"Done\n\nปิดเเจ้งเเตือนของคุณเเล้ว")
 
             elif msg.text in ["Notifedbot on","เปิดเเจ้งเตือนบอท","Mbot on"]:
               if msg.from_ in admin:
                 if wait["Notifedbot"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"All bot Notifed On\n\nเปิดเเจ้งเเตือนบอทเเล้ว")
+                        cl.sendText(msg.to,"All bot Notifed On\n\nเปิดเเจ้งเเตือนบอทเเล้ว")
                     else:
-                        ki1.sendText(msg.to,"Done\n\nเปิดเเจ้งเเตือนบอทเเล้ว")
+                        cl.sendText(msg.to,"Done\n\nเปิดเเจ้งเเตือนบอทเเล้ว")
                 else:
                     wait["Notifedbot"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"All bot Notifed On\n\nเปิดเเจ้งเเตือนบอทเเล้ว")
+                        cl.sendText(msg.to,"All bot Notifed On\n\nเปิดเเจ้งเเตือนบอทเเล้ว")
                     else:
-                        ki1.sendText(msg.to,"Done\n\nเปิดเเจ้งเเตือนบอทเเล้ว")
+                        cl.sendText(msg.to,"Done\n\nเปิดเเจ้งเเตือนบอทเเล้ว")
             elif msg.text in ["Notifedbot off","ปิดแจ้งเตือนบอท","Mbot off"]:
               if msg.from_ in admin:
                 if wait["Notifedbot"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"All bot Notifed Off\n\nปิดเเจ้งเเตือนบอทเเล้ว")
+                        cl.sendText(msg.to,"All bot Notifed Off\n\nปิดเเจ้งเเตือนบอทเเล้ว")
                     else:
-                        ki1.sendText(msg.to,"Done\n\nปิดเเจ้งเเตือนบอทเเล้ว")
+                        cl.sendText(msg.to,"Done\n\nปิดเเจ้งเเตือนบอทเเล้ว")
                 else:
                     wait["Notifedbot"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"All bot Notifed Off\n\nปิดเเจ้งเเตือนบอทเเล้ว")
+                        cl.sendText(msg.to,"All bot Notifed Off\n\nปิดเเจ้งเเตือนบอทเเล้ว")
                     else:
-                        ki1.sendText(msg.to,"Done\n\nปิดเเจ้งเเตือนบอทเเล้ว")
+                        cl.sendText(msg.to,"Done\n\nปิดเเจ้งเเตือนบอทเเล้ว")
 
 #=================================================
             elif "Spam " in msg.text:
@@ -4027,27 +4664,27 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                    if txt[1] == "on":
                         if jmlh <= 10000:
                              for x in range(jmlh):
-                                   ki1.sendText(msg.to, teks)
+                                   cl.sendText(msg.to, teks)
                         else:
-                               ki1.sendText(msg.to, "Out of range! ")
+                               cl.sendText(msg.to, "Out of range! ")
                    elif txt[1] == "off":
                          if jmlh <= 10000:
-                               ki1.sendText(msg.to, tulisan)
+                               cl.sendText(msg.to, tulisan)
                          else:
-                               ki1.sendText(msg.to, "Out of range! ")
+                               cl.sendText(msg.to, "Out of range! ")
 #-----------------------------------------------
             elif "Mid @" in msg.text:
                 _name = msg.text.replace("Mid @","")
                 _nametarget = _name.rstrip(' ')
-                gs = ki1.getGroup(msg.to)
+                gs = cl.getGroup(msg.to)
                 for g in gs.members:
                     if _nametarget == g.displayName:
-                        ki1.sendText(msg.to, g.mid)
+                        cl.sendText(msg.to, g.mid)
                     else:
                         pass
 #-------------------------------------------------
-            elif msg.text in ["เปิดหมด","เปิดป้องกันหมด","Phet all on"]:
-                        ki2.sendText(msg.to,"[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+            elif msg.text in ["เปิดหมด","Phet All on","Phet all on"]:
+                        ki1.sendText(msg.to,"[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki1.sendText(msg.to,"Please wait......")
                         ki1.sendText(msg.to,"Turn on all protection")
                         ki1.sendText(msg.to,"Qr:on")
@@ -4060,8 +4697,8 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                         ki1.sendText(msg.to,"Blockinvite:on")
 
 
-            elif msg.text in ["ปิดหมด","ปิดป้องกันหมด","Phet all off"]:
-                        ki2.sendText(msg.to,"[SELFBOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+            elif msg.text in ["ปิดหมด","Phet All off","Phet all off"]:
+                        ki1.sendText(msg.to,"[SELFBOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki1.sendText(msg.to,"Please wait......")
                         ki1.sendText(msg.to,"Turn off all protection")
                         ki1.sendText(msg.to,"Qr:off")
@@ -4114,6 +4751,12 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                     gs = ki2.getGroup(msg.to)
                     gs = ki3.getGroup(msg.to)
                     gs = ki4.getGroup(msg.to)
+                    gs = ki5.getGroup(msg.to)
+                    gs = ki6.getGroup(msg.to)
+                    gs = ki7.getGroup(msg.to)
+                    gs = ki8.getGroup(msg.to)
+                    gs = ki9.getGroup(msg.to)
+                    gs = ki10.getGroup(msg.to)
 
                     ki1.sendText(msg.to, "Hello all...😁😁 {}")
                     targets = []
@@ -4127,7 +4770,7 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                         for target in targets:
                           if not target in Bots:
                             try:
-                                klist=[ki1,ki2,ki3,ki4]
+                                klist=[ki1,ki2,ki3,ki4,ki5,ki5,ki6,ki7,ki8,ki9,ki10]
                                 kicker=random.choice(klist)
                                 kicker.kickoutFromGroup(msg.to,[target])
                                 print (msg.to,[g.mid])
@@ -4148,7 +4791,7 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                         return
                     for jj in matched_list:
                         try:
-                            klist=[ki1,ki2,ki3,ki4,ki5]
+                            klist=[ki1,ki2,ki3,ki4,ki5,ki5,ki6,ki7,ki8,ki9,ki10]
                             kicker = random.choice(klist)
                             kicker.kickoutFromGroup(msg.to,[jj])
                             print (msg.to,[jj])
@@ -4387,25 +5030,25 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                 
             elif msg.text in ["เปิด อ่าน","Read on","Read:on"]:
                 wait['alwayRead'] = True
-                cl.sendText(msg.to,"เปิดอ่านข้อความอัตโนมัติ.👌")
+                ki1.sendText(msg.to,"เปิดอ่านข้อความอัตโนมัติ.👌")
                 
             elif msg.text in ["ปิด อ่าน","Read off","Read:off"]:
                 wait['alwayRead'] = False
-                cl.sendText(msg.to,"ปิดอ่านข้อความอัตโนมัติ.👌")
+                ki1.sendText(msg.to,"ปิดอ่านข้อความอัตโนมัติ.👌")
                 
             elif msg.text in ["Tag on","Autorespon:on","Respon on","Respon:on"]:
                 wait["detectMention"] = True
-                cl.sendText(msg.to,"Auto Respon ON")
+                ki1.sendText(msg.to,"Auto Respon ON")
                 
             elif msg.text in ["Tag off","Autorespon:off","Respon off","Respon:off"]:
                 wait["detectMention"] = False
-                cl.sendText(msg.to,"Auto Respon OFF")
+                ki1.sendText(msg.to,"Auto Respon OFF")
 
             elif msg.text in ["Tag1","Tag1"]:
-                cl.sendText(msg.to,"ข้อความแทคล่าสุดคือ\n\n" + str(wait["tag1"]))
+                ki1.sendText(msg.to,"ข้อความแทคล่าสุดคือ\n\n" + str(wait["tag1"]))
 
             elif msg.text in ["Tag2","Tag2"]:
-                cl.sendText(msg.to,"ข้อความแทคล่าสุดคือ\n\n" + str(wait["tag2"]))
+                ki1.sendText(msg.to,"ข้อความแทคล่าสุดคือ\n\n" + str(wait["tag2"]))
 
             elif "Tag1:" in msg.text:
                     wait["tag1"] = msg.text.replace("Tag1: ","")
@@ -5604,7 +6247,7 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                 usia = data["data"]["usia"]
                 ultah = data["data"]["ultah"]
                 zodiak = data["data"]["zodiak"]
-                cl.sendText(msg.to,"============ I N F O R M A S I ============\n"+"Date Of Birth : "+lahir+"\nAge : "+usia+"\nUltah : "+ultah+"\nZodiak : "+zodiak+"\n============ I N F O R M A S I ============")
+                ki1.sendText(msg.to,"============ I N F O R M A S I ============\n"+"Date Of Birth : "+lahir+"\nAge : "+usia+"\nUltah : "+ultah+"\nZodiak : "+zodiak+"\n============ I N F O R M A S I ============")
 
             elif msg.text in ["Time","เวลา"]:
                 timeNow = datetime.now()
@@ -5883,6 +6526,96 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                         print "kickers_Ok"
                         G.preventJoinByTicket(G)
                         ki4.updateGroup(G)
+            elif msg.text in ["คิก5","K5"]:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        G = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        ki5.updateGroup(G)
+                        print "kickers_Ok"
+                        G.preventJoinByTicket(G)
+                        ki5.updateGroup(G)
+            elif msg.text in ["คิก6","K6"]:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        G = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        ki6.updateGroup(G)
+                        print "kickers_Ok"
+                        G.preventJoinByTicket(G)
+                        ki6.updateGroup(G)
+            elif msg.text in ["คิก7","K7"]:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        ki7.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        G = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        ki7.updateGroup(G)
+                        print "kickers_Ok"
+                        G.preventJoinByTicket(G)
+                        ki7.updateGroup(G)
+            elif msg.text in ["คิก8","K8"]:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        ki8.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        G = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        ki8.updateGroup(G)
+                        print "kickers_Ok"
+                        G.preventJoinByTicket(G)
+                        ki8.updateGroup(G)
+            elif msg.text in ["คิก9","K9"]:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        G = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        ki9.updateGroup(G)
+                        print "kickers_Ok"
+                        G.preventJoinByTicket(G)
+                        ki9.updateGroup(G)
+            elif msg.text in ["คิก10","K10"]:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)
+                        G = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        ki10.updateGroup(G)
+                        print "kickers_Ok"
+                        G.preventJoinByTicket(G)
+                        ki10.updateGroup(G)
             elif '/w ' in msg.text.lower():
                   try:
                       wiki = msg.text.lower().replace("/w ","")
@@ -6113,13 +6846,13 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                     wait2['ROM'][msg.to] = {}
                     with open('sider.json', 'w') as fp:
                      json.dump(wait2, fp, sort_keys=True, indent=4)
-                     cl.sendText(msg.to, "โปรเเกรมเปิดการอ่านอัตโนมัต\nSet reading point:\n" + datetime.now().strftime('%H:%M:%S'))
+                     ki1.sendText(msg.to, "โปรเเกรมเปิดการอ่านอัตโนมัต\nSet reading point:\n" + datetime.now().strftime('%H:%M:%S'))
                      print wait2
 
                     
             elif "/ปิดการอ่าน" == msg.text.lower():
                 if msg.to not in wait2['readPoint']:
-                    cl.sendText(msg.to,"Lurking already off\nปิดการอ่านอัตโนมัต")
+                    ki1.sendText(msg.to,"Lurking already off\nปิดการอ่านอัตโนมัต")
                 else:
                     try:
                             del wait2['readPoint'][msg.to]
@@ -6127,13 +6860,13 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                             del wait2['setTime'][msg.to]
                     except:
                           pass
-                    cl.sendText(msg.to, "ปิดการอ่านอัตโนมัต\nDelete reading point:\n" + datetime.now().strftime('%H:%M:%S'))
+                    ki1.sendText(msg.to, "ปิดการอ่านอัตโนมัต\nDelete reading point:\n" + datetime.now().strftime('%H:%M:%S'))
 
                     
             elif "/อ่าน" == msg.text.lower():
                     if msg.to in wait2['readPoint']:
                         if wait2["ROM"][msg.to].items() == []:
-                             cl.sendText(msg.to, "SELF BOT\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•] \n\nLurkers:\nNone")
+                             ki1.sendText(msg.to, "SELF BOT\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•] \n\nLurkers:\nNone")
                         else:
                             chiya = []
                             for rom in wait2["ROM"][msg.to].items():
@@ -6161,18 +6894,18 @@ elif msg.text in ["Gcreator:inv","เชิญเเอดมิน"]:
                         print lol
                         msg.contentMetadata = lol
                         try:
-                          cl.sendMessage(msg)
+                          ki1.sendMessage(msg)
                         except Exception as error:
                               print error
                         pass
                
            
                     else:
-                        cl.sendText(msg.to, "กรุณาตั้งเวลาการอ่านใหม่อีกครั้งโปรดพิมพ์ ➠ /ตั้งเวลา")
+                        ki1.sendText(msg.to, "กรุณาตั้งเวลาการอ่านใหม่อีกครั้งโปรดพิมพ์ ➠ /ตั้งเวลา")
             elif msg.from_ in mimic["target"] and mimic["status"] == True and mimic["target"][msg.from_] == True:
             	text = msg.text
             	if text is not None:
-            		cl.sendText(msg.to, "[อัตโนมัติ]: " + text)
+            		ki1.sendText(msg.to, "[อัตโนมัติ]: " + text)
             	else:
             		if msg.contentType == 7:
             			msg.contentType = 7
