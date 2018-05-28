@@ -24,27 +24,27 @@ ki2.login(token="EsHnQhUUpoTBMXVQHMp2.FhhNokcvxL52GrZPZEN+aG.QOFfiXe/XvbHZkTuNyj
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
-ki3.login(token="EsNCKJURHWYEvc5Dqawb.thEbgORJZ5EqXYnQKch5kW.aiYnHCcvfhuTjnn9ZlyyEKjJ2VpAEFFRN52ZDV8JW0o=")
+ki3.login(token="Esiqc8tPro5SbEhIjk09.ARWWQwWlFLlktlE/A8VSMq.utQe/xTobMQog4vE48NPlmGtZSrK1iAwuibygwnON3w=")
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(token="Esiqc8tPro5SbEhIjk09.ARWWQwWlFLlktlE/A8VSMq.utQe/xTobMQog4vE48NPlmGtZSrK1iAwuibygwnON3w=")
+ki4.login(token="EsNCKJURHWYEvc5Dqawb.thEbgORJZ5EqXYnQKch5kW.aiYnHCcvfhuTjnn9ZlyyEKjJ2VpAEFFRN52ZDV8JW0o=")
 ki4.loginResult()
 
-#ki5 = LINETCR.LINE()
-#ki5.login(token="")
+#ki5 = LINEVIT.LINE()
+#ki5.login(token="
 #ki5.loginResult()
 
-#ki6 = LINETCR.LINE()
-#ki6.login(token="")
+#ki6 = LINEVIT.LINE()
+#ki6.login(token="
 #ki6.loginResult()
 
-#ki7 = LINETCR.LINE()
-#ki7.login(token="")
+#ki7 = LINEVIT.LINE()
+#ki7.login(token="
 #ki7.loginResult()
 
-#ki8 = LINETCR.LINE()
-#ki8.login(token="")
+#ki8 = LINEVIT.LINE()
+#ki8.login(token="
 #ki8.loginResult()
 
 #ki9 = LINEVIT.LINE()
@@ -131,11 +131,7 @@ helpMessage ="""
 ║☬➣ 『เปิดกันรัน』
 ║☬➣ 『ปิดกันรัน』
 ╚═════════════════════
-──┅═✥===========✥═┅──
-╔═════════════════════
-║ •─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•
-╚═════════════════════
-──┅═✥===========✥═┅──
+
 """
 helpMessage2 ="""
 ╔═════════════════════
@@ -219,11 +215,7 @@ helpMessage2 ="""
 ║☬➣『Protect On/off』
 ║☬➣『Namelock On/off』
 ╚═════════════════════
-──┅═✥===========✥═┅──
-╔═════════════════════
-║ •─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•
-╚═════════════════════
-──┅═✥===========✥═┅──
+
 """
 helpMessage3 ="""
 ╔═════════════════════
@@ -275,12 +267,7 @@ helpMessage3 ="""
 ║☬〘say-ko 〙
 ║☬➣〘profileig 〙
 ║☬➣〘checkdate 〙
-╚══════════════════
-──┅═✥===========✥═┅──
-╔═════════════════════
-║•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•
-╚═════════════════════
-──┅═✥===========✥═┅──      
+╚══════════════════   
 ╔════════════════════
 ║     ✦เปิด/ปิดข้อความต้อนรับ✦
 ╠════════════════════
@@ -317,13 +304,8 @@ helpMessage3 ="""
 ║☬Tag1 ➠เช็ตข้อความแทค
 ║☬Tag2 ➠เช็คข้อความแทค
 ╚═════════════════════
-──┅═✥===========✥═┅──
-╔═════════════════════
-║•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•
-╚═════════════════════
-──┅═✥===========✥═┅──
-"""
 
+"""
 KAC=[cl,ki1,ki2,ki3,ki4]
 mid = cl.getProfile().mid
 Amid1 = ki1.getProfile().mid
@@ -351,7 +333,7 @@ admin = "u699fc4f595f50243617ca6cc4ec773c8"
 admsa = "u699fc4f595f50243617ca6cc4ec773c8"
 owner = "u699fc4f595f50243617ca6cc4ec773c8"
 adminMID = "u699fc4f595f50243617ca6cc4ec773c8"
-Creator="u699fc4f595f50243617ca6cc4ec773c8"
+Creator= "u699fc4f595f50243617ca6cc4ec773c8"
 wait = {
     "alwayRead":False,
     "detectMention":True,    
@@ -367,11 +349,10 @@ wait = {
     'timeline':True,
     'autoBlock':True,
     'autoAdd':False,
-    'message':"[ตอบรับ อัตโนมัติ]\n[SELF BOT]\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]\nhttp://line.me/ti/p/_9io7edD7W",
+    'message':"[ตอบรับ อัตโนมัติ]\n[SELF BOT]\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•]",
     "lang":"JP",
     "commentOn":True,
-    "comment1":"""
-""",
+    "comment1":"•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•",
     "acommentOn":False,
     "bcommentOn":False,
     "ccommentOn":False,
@@ -1900,7 +1881,7 @@ def bot(op):
                 if wait["steal"] == True:
                     _name = msg.contentMetadata["displayName"]
                     copy = msg.contentMetadata["mid"]
-                    groups = ki1.getGroup(msg.to)
+                    groups = cl.getGroup(msg.to)
                     pending = groups.invitee
                     targets = []
                     for s in groups.members:
@@ -1914,16 +1895,16 @@ def bot(op):
                     else:
                         for target in targets:
                             try:
-                                ki1.findAndAddContactsByMid(target)
-                                contact = ki1.getContact(target)
-                                cu = ki1.channel.getCover(target)
+                                cl.findAndAddContactsByMid(target)
+                                contact = cl.getContact(target)
+                                cu = cl.channel.getCover(target)
                                 path = str(cu)
                                 image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                                ki1.sendText(msg.to,"Nama :\n" + contact.displayName + "\n\nMid :\n" + msg.contentMetadata["mid"] + "\n\nBio :\n" + contact.statusMessage)
-                                ki1.sendText(msg.to,"Profile Picture " + contact.displayName)
-                                ki1.sendImageWithUrl(msg.to,image)
-                                ki1.sendText(msg.to,"Cover " + contact.displayName)
-                                ki1.sendImageWithUrl(msg.to,path)
+                                cl.sendText(msg.to,"Nama :\n" + contact.displayName + "\n\nMid :\n" + msg.contentMetadata["mid"] + "\n\nBio :\n" + contact.statusMessage)
+                                cl.sendText(msg.to,"Profile Picture " + contact.displayName)
+                                cl.sendImageWithUrl(msg.to,image)
+                                cl.sendText(msg.to,"Cover " + contact.displayName)
+                                cl.sendImageWithUrl(msg.to,path)
                                 wait["steal"] = False
                                 break
                             except:
@@ -1970,31 +1951,31 @@ def bot(op):
                elif wait["dblacklist"] == True:
                    if msg.contentMetadata["mid"] in wait["blacklist"]:
                         del wait["blacklist"][msg.contentMetadata["mid"]]
-                        ki1.sendText(msg.to,"Done deleted")
+                        cl.sendText(msg.to,"Done deleted")
 
                         wait["dblacklist"] = False
 
                    else:
                         wait["dblacklist"] = False
-                        ki1.sendText(msg.to,"It is not in the black list")
+                        cl.sendText(msg.to,"It is not in the black list")
 
                elif wait["contact"] == True:
                     msg.contentType = 0
-                    ki1.sendText(msg.to,msg.contentMetadata["mid"])
+                    cl.sendText(msg.to,msg.contentMetadata["mid"])
                     if 'displayName' in msg.contentMetadata:
-                        contact = ki1.getContact(msg.contentMetadata["mid"])
+                        contact = cl.getContact(msg.contentMetadata["mid"])
                         try:
-                            cu = ki1.channel.getCover(msg.contentMetadata["mid"])
+                            cu = cl.channel.getCover(msg.contentMetadata["mid"])
                         except:
                             cu = ""
-                        ki1.sendText(msg.to,"[displayName]:\n" + msg.contentMetadata["displayName"] + "\n[mid]:\n" + msg.contentMetadata["mid"] + "\n[statusMessage]:\n" + contact.statusMessage + "\n[pictureStatus]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[coverURL]:\n" + str(cu))
+                        cl.sendText(msg.to,"[displayName]:\n" + msg.contentMetadata["displayName"] + "\n[mid]:\n" + msg.contentMetadata["mid"] + "\n[statusMessage]:\n" + contact.statusMessage + "\n[pictureStatus]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[coverURL]:\n" + str(cu))
                     else:
-                        contact = ki1.getContact(msg.contentMetadata["mid"])
+                        contact = cl.getContact(msg.contentMetadata["mid"])
                         try:
-                            cu = ki1.channel.getCover(msg.contentMetadata["mid"])
+                            cu = cl.channel.getCover(msg.contentMetadata["mid"])
                         except:
                             cu = ""
-                        ki1.sendText(msg.to,"[displayName]:\n" + contact.displayName + "\n[mid]:\n" + msg.contentMetadata["mid"] + "\n[statusMessage]:\n" + contact.statusMessage + "\n[pictureStatus]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[coverURL]:\n" + str(cu))
+                        cl.sendText(msg.to,"[displayName]:\n" + contact.displayName + "\n[mid]:\n" + msg.contentMetadata["mid"] + "\n[statusMessage]:\n" + contact.statusMessage + "\n[pictureStatus]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[coverURL]:\n" + str(cu))
             elif msg.contentType == 16:
                 if wait["timeline"] == True:
                     msg.contentType = 0
@@ -2002,7 +1983,7 @@ def bot(op):
                         msg.text = "post URL\n" + msg.contentMetadata["postEndUrl"]
                     else:
                         msg.text = "URLâ†’\n" + msg.contentMetadata["postEndUrl"]
-                    ki1.sendText(msg.to,msg.text)
+                    cl.sendText(msg.to,msg.text)
             elif msg.text is None:
                 return
             elif msg.text in ["คำสั่ง"]:
@@ -2139,16 +2120,16 @@ def bot(op):
             elif msg.text.lower() == 'บอท':
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid1}
-                cl.sendMessage(msg)
+                ki1.sendMessage(msg)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid2}
-                cl.sendMessage(msg)
+                ki1.sendMessage(msg)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid3}
-                cl.sendMessage(msg)
+                ki1.sendMessage(msg)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid4}
-                cl.sendMessage(msg)
+                ki1.sendMessage(msg)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid5}
                 cl.sendMessage(msg)
@@ -2214,12 +2195,12 @@ def bot(op):
                        if len(query) == 3:
                            isi = yt(query[2])
                            hasil = isi[int(query[1])-1]
-                           ki1.sendText(msg.to, hasil)
+                           cl.sendText(msg.to, hasil)
                        else:
                            isi = yt(query[1])
-                           ki1.sendText(msg.to, isi[0])
+                           cl.sendText(msg.to, isi[0])
                    except Exception as e:
-                       ki1.sendText(msg.to, str(e))
+                       cl.sendText(msg.to, str(e))
             elif 'ยูทูป ' in msg.text:
                 try:
                     textToSearch = (msg.text).replace('ยูทูป ', "").strip()
@@ -2264,7 +2245,7 @@ def bot(op):
                 ki2.sendMessage(msg)
             elif "youname " in msg.text.lower():
                 txt = msg.text.replace("youname ", "")
-                ki1.kedapkedip(msg.to,txt)
+                cl.kedapkedip(msg.to,txt)
                 print "[Command] Kedapkedip"
 
 
@@ -2384,7 +2365,7 @@ def bot(op):
                                     break
                     elif cmd == "list":
                         if mimic["target"] == {}:
-                            ki1.sendText(msg.to,"No target")
+                            cl.sendText(msg.to,"No target")
                         else:
                             lst = "<<List Target>>"
                             total = len(mimic["target"])
@@ -2394,7 +2375,7 @@ def bot(op):
                                 else:
                                     stat = "Off"
                                 lst += "\n-> " + cl.getContact(a).displayName + " | " + stat
-                            ki1.sendText(msg.to,lst + "\nTotal: " + total)
+                            cl.sendText(msg.to,lst + "\nTotal: " + total)
 
 
 #----------------------------------------------------------------------------
@@ -2519,30 +2500,30 @@ def bot(op):
             elif msg.text in ["vps","kernel","Vps"]:
                  if msg.from_ in admin:
                      botKernel = subprocess.Popen(["uname","-svmo"], stdout=subprocess.PIPE).communicate()[0]
-                     ki1.sendText(msg.to, botKernel)
+                     cl.sendText(msg.to, botKernel)
                      print "[Command]Kernel executed"
                  else:
-                     ki1.sendText(msg.to,"Command denied.")
-                     ki1.sendText(msg.to,"Admin permission required.")
+                     cl.sendText(msg.to,"Command denied.")
+                     cl.sendText(msg.to,"Admin permission required.")
                      print "[Error]Command denied - Admin permission required"
 
             elif "ผู้สร้างกลุ่ม" == msg.text:
                 try:
-                    group = ki1.getGroup(msg.to)
+                    group = cl.getGroup(msg.to)
                     GS = group.creator.mid
                     M = Message()
                     M.to = msg.to
                     M.contentType = 13
                     M.contentMetadata = {'mid': GS}
-                    ki1.sendMessage(M)
+                    cl.sendMessage(M)
                 except:
                     W = group.members[0].mid
                     M = Message()
                     M.to = msg.to
                     M.contentType = 13
                     M.contentMetadata = {'mid': W}
-                    ki1.sendMessage(M)
-                    ki1.sendText(msg.to,"old user")
+                    cl.sendMessage(M)
+                    cl.sendText(msg.to,"old user")
             elif 'ขอเพลง ' in msg.text:
                 try:
                     textToSearch = (msg.text).replace('ขอเพลง ', "").strip()
@@ -2578,17 +2559,17 @@ def bot(op):
 							print rom
 							chiya += rom[1] + "\n"
 
-					ki1.sendText(msg.to, "people who reading%s\n is this\n\n\nDate and time I started it:\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
+					cl.sendText(msg.to, "people who reading%s\n is this\n\n\nDate and time I started it:\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
 				else:
-					ki1.sendText(msg.to, "read point not set\nReading point setting you send it it will send an esxisting one")
+					cl.sendText(msg.to, "read point not set\nReading point setting you send it it will send an esxisting one")
 
 
             elif msg.text in ["Myginfoid","ไอดีกลุ่ม ทั้งหมด"]:
-                gid = ki1.getGroupIdsJoined()
+                gid = cl.getGroupIdsJoined()
                 g = ""
                 for i in gid:
                     g += "[%s]:%s\n" % (cl.getGroup(i).name,i)
-                ki1.sendText(msg.to,g)
+                cl.sendText(msg.to,g)
 
             elif msg.text in ["P1 invite","P1 Invite"]:
                 wait["ainvite"] = True
@@ -2602,7 +2583,7 @@ def bot(op):
                 bctxt = msg.text.replace("ประกาศ:", "")
                 a = cl.getGroupIdsJoined()
                 for manusia in a:
-                    ki1.sendText(manusia, (bctxt))
+                    cl.sendText(manusia, (bctxt))
             elif msg.text.lower() == 'bann':
                 blockedlist = cl.getBlockedContactIds()
                 cl.sendText(msg.to, "Please wait...")
@@ -2638,10 +2619,10 @@ def bot(op):
                         ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
 
-                        ki1.sendText(msg.to,"[SELF BOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
+                        ki1.sendText(msg.to,"[͡•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
                         ki2.sendText(msg.to,"[Do not think  will try.]")
-                        ki3.sendText(msg.to,"[ By: •─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
-                        ki1.sendText(msg.to,"Hello " + str(ginfo.name) + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki3.sendText(msg.to,"[ By: ͡•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
+                        ki1.sendText(msg.to,"Hello " + str(ginfo.name) + "\n[By:•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -2687,25 +2668,25 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
-                        ki1.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki1.sendText(msg.to,"Bye~Bye\nลาก่อย 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki1.leaveGroup(msg.to)
-                        ki2.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki2.sendText(msg.to,"Bye~Bye\nลาก่อย 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki2.leaveGroup(msg.to)
-                        ki3.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki3.sendText(msg.to,"Bye~Bye\nลาก่อย 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki3.leaveGroup(msg.to)
-                        ki4.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki4.sendText(msg.to,"Bye~Bye\nลาก่อย􀜁􀄯􏿿"  +  str(ginfo.name)   + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki4.leaveGroup(msg.to)
-                        ki5.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki5.sendText(msg.to,"Bye~Bye\nลาก่อย 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki5.leaveGroup(msg.to)
-                        ki6.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki6.sendText(msg.to,"Bye~Bye\nลาก่อย 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki6.leaveGroup(msg.to)
-                        ki7.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki7.sendText(msg.to,"Bye~Bye\nลาก่อย 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki7.leaveGroup(msg.to)
-                        ki8.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki8.sendText(msg.to,"Bye~Bye\nลาก่อย 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki8.leaveGroup(msg.to)
-                        ki9.sendText(msg.to,"Bye~Bye\nลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki9.sendText(msg.to,"Bye~Bye\nลาก่อย 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki9.leaveGroup(msg.to)
-                        ki10.sendText(msg.to,"Bye~Bye\ลาก่อน 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki10.sendText(msg.to,"Bye~Bye\ลาก่อย 􀜁􀄯􏿿"  +  str(ginfo.name)  + "\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
                         ki10.leaveGroup(msg.to)
 
                     except:
@@ -2732,7 +2713,7 @@ def bot(op):
 
 
             elif "#v10" in msg.text:
-                cl.sendText(msg.to,"""[SELF BOT]\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
+                cl.sendText(msg.to,"[SELF BOT]")
 คำสั่งบอท siri
 คำนี้เป็นการล็อกห้องสั่งแล้วทุกคนจะทำอะไรไม่ได้นอกจากเจ้าของห้องทำได้คนเดียวเช่น•เปิดลิงค์•เชิญเพื่อน•เปลี่ยนรูปกลุ่ม•เปลี่ยนชื่อกลุ่มไรแบบนี้• บอทจะไม่เตะเเอทมินทุกกรณี
 ชุดล๊อกห้อง
@@ -2799,30 +2780,25 @@ Setlastpoint     ตั้งค่า
 Viewlastseen   สั่งอ่าน
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
-สนใจติดต่อที่
 •─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•
 
-LINE ID FORGUS22
-
-http://line.me/ti/p/_9io7edD7W
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-""")
+")
 
 #==================================================
             elif msg.text in ["Invite"]:
                 if msg.from_ in admin:
                  wait["winvite"] = True
-                 ki1.sendText(msg.to,"โปรดส่ง คท ด้วย")
-            elif msg.text in ["เชิญ"]:
+                 cl.sendText(msg.to,"โปรดส่ง คท ด้วย")
+            elif msg.text in ["1เชิญ"]:
                 if msg.from_ in admin:
                  wait["winvite"] = True
-                 ki1.sendText(msg.to,"โปรดส่ง คท ด้วย")
+                 cl.sendText(msg.to,"โปรดส่ง คท ด้วย")
 
             elif msg.text in ["invite on"]:
                 if msg.from_ in admin:
                  wait["winvite"] = False
                  cl.sendText(msg.to,"ปิดการเชิญ แล้ว.")
-            elif msg.text in ["Bot1 invite contact","1เชิญ"]:
+            elif msg.text in ["Bot1 invite contact","เชิญ"]:
                 if msg.from_ in admin:
                  wait["ainvite"] = True
                  ki1.sendText(msg.to,"send contact")
@@ -2902,7 +2878,7 @@ http://line.me/ti/p/_9io7edD7W
                         uye.sendText(msg.to,"Not for use less than group")
             elif msg.text in ["เปิดลิ้ง"]:
                 if msg.toType == 2:
-                    X = ki1.getGroup(msg.to)
+                    X = cl.getGroup(msg.to)
                     X.preventJoinByTicket = False
                     ki1.updateGroup(X)
                     if wait["lang"] == "JP":
@@ -2916,7 +2892,7 @@ http://line.me/ti/p/_9io7edD7W
                         ki1.sendText(msg.to,"Not for use less than group")
             elif msg.text in ["ปิดลิ้ง"]:
                 if msg.toType == 2:
-                    X = ki1.getGroup(msg.to)
+                    X = cl.getGroup(msg.to)
                     X.preventJoinByTicket = True
                     ki1.updateGroup(X)
                     if wait["lang"] == "JP":
@@ -2929,7 +2905,7 @@ http://line.me/ti/p/_9io7edD7W
                     else:
                         ki1.sendText(msg.to,"Not for use less than group")
             elif msg.text.lower() == 'ginfo':
-                ginfo = ki1.getGroup(msg.to)
+                ginfo = cl.getGroup(msg.to)
                 try:
                     gCreator = ginfo.creator.displayName
                 except:
@@ -2941,21 +2917,21 @@ http://line.me/ti/p/_9io7edD7W
                         sinvitee = str(len(ginfo.invitee))
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ginfo.creator.mid}
-                ki1.sendText(msg.to,"[Nama]\n" + str(ginfo.name) + "\n[Group Id]\n" + msg.to + "\n\n[Group Creator]\n" + gCreator + "\n\nAnggota:" + str(len(ginfo.members)) + "\nInvitation:" + sinvitee + "")
-                ki1.sendMessage(msg)
+                cl.sendText(msg.to,"[Nama]\n" + str(ginfo.name) + "\n[Group Id]\n" + msg.to + "\n\n[Group Creator]\n" + gCreator + "\n\nAnggota:" + str(len(ginfo.members)) + "\nInvitation:" + sinvitee + "")
+                cl.sendMessage(msg)
             elif msg.text in ["!Glist","Myginfo"]:
                 gs = cl.getGroupIdsJoined()
                 L = "☫『 Groups List 』☫\n"
                 for i in gs:
                     L += "[⭐] %s \n" % (cl.getGroup(i).name + " | [ " + str(len (cl.getGroup(i).members)) + " ]")
-                ki1.sendText(msg.to, L + "\nTotal Group : [ " + str(len(gs)) +" ]")
+                cl.sendText(msg.to, L + "\nTotal Group : [ " + str(len(gs)) +" ]")
 
 
             elif msg.text in ["Selfbot"]:
 				msg.contentType = 13
 				msg.contentMetadata = {'mid': mid}
-		    	cl.sendMessage(msg)
-				ki1.sendText(msg.to,"[SELFBOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+				cl.sendMessage(msg)
+				cl.sendText(msg.to,"SELFBOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
             elif "ไอดี" == msg.text:
                 key = msg.to
                 ki1.sendText(msg.to, key)
@@ -2964,13 +2940,13 @@ http://line.me/ti/p/_9io7edD7W
                    key = eval(msg.contentMetadata["MENTION"])
                    key1 = key["MENTIONEES"][0]["M"]
                    mi = cl.getContact(key1)
-                   ki1.sendText(msg.to,"Mid:" + key1)
+                   cl.sendText(msg.to,"Mid:" + key1)
 
             elif "Mid:" in msg.text:
                 mmid = msg.text.replace("Mid:","")
                 msg.contentType = 13
                 msg.contentMetadata = {"mid":mmid}
-                ki1.sendMessage(msg)
+                cl.sendMessage(msg)
 
  #           elif "Phet Keyy" in msg.text:
  #               cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[{PHET HACK BOT}] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 #\n\n􀜁􀇔􏿿[Kb1 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[B Cancel]\n􀜁􀇔􏿿[kick @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[Pb1 Gift]\n􀜁􀇔􏿿[Pb1 bye]\n\n
@@ -3017,7 +2993,7 @@ http://line.me/ti/p/_9io7edD7W
                 for g in gs.members:
                     if _nametarget == g.displayName:
                         msg.contentMetadata = {'mid': g.mid}
-                        ki1.sendMessage(msg)
+                        cl.sendMessage(msg)
                     else:
                          pass
             elif "#cb" in msg.text:
@@ -3093,11 +3069,11 @@ http://line.me/ti/p/_9io7edD7W
                                     cl.sendText(msg.to,"Error")
 
             elif "Mid" == msg.text:
-                ki1.sendText(msg.to,mid)			
+                cl.sendText(msg.to,mid)			
 
             elif msg.text == "กลุ่ม":
                 if msg.toType == 2:
-                    ginfo = ki1.getGroup(msg.to)
+                    ginfo = cl.getGroup(msg.to)
                     try:
                         gCreator = ginfo.creator.displayName
                     except:
@@ -3111,14 +3087,14 @@ http://line.me/ti/p/_9io7edD7W
                           u = "[ปิด]"
                         else:
                             u = "[เปิด]"
-                        ki1.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:")
+                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:")
                     else:
-                        ki1.sendText(msg.to,"Nama Gourp:\n" + str(ginfo.name) + "\nGid:\n" + msg.to + "\nCreator:\n" + gCreator + "\nProfile:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
+                        cl.sendText(msg.to,"Nama Gourp:\n" + str(ginfo.name) + "\nGid:\n" + msg.to + "\nCreator:\n" + gCreator + "\nProfile:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
                 else:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Can not be used outside the group")
+                        cl.sendText(msg.to,"Can not be used outside the group")
                     else:
-                         ki1.sendText(msg.to,"Not for use less than group")
+                         cl.sendText(msg.to,"Not for use less than group")
             elif "Bot1@@" in msg.text:
                 group = cl.getGroup(msg.to)
                 k = len(group.members)//100
@@ -3295,15 +3271,15 @@ http://line.me/ti/p/_9io7edD7W
             elif msg.text in ["K on","เปิด คท","Contact on","K:on"]:
                 if wait["contact"] == True:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah on Bosqu")
+                        ki1.sendText(msg.to,"ตรวจสอบข้อมูล")
                     else:
-                        cl.sendText(msg.to,"Ok Bosqu")
+                        ki1.sendText(msg.to,"Ok Bosqu")
                 else:
                     wait["contact"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Sudah on Bosqu")
+                        ki1.sendText(msg.to,"Sudah on Bosqu")
                     else:
-                        cl.sendText(msg.to,"Ok Bosqu")
+                        ki1.sendText(msg.to,"Ok Bosqu")
             elif msg.text in ["contact v"]:
                 if msg.from_ in admin:
                  wait["winvite"] = True
@@ -3311,15 +3287,15 @@ http://line.me/ti/p/_9io7edD7W
             elif msg.text in ["K:off","ปิด คท","Contact off","K off"]:
                 if wait["contact"] == False:
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"Sudah off Bosqu")
+                        ki1.sendText(msg.to,"ปิดตรวจสอบข้อมูล")
                     else:
-                        cl.sendText(msg.to,"Ok Bosqu ")
+                        ki1.sendText(msg.to,"Ok Bosqu ")
                 else:
                     wait["contact"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Sudah on Bosqu")
+                        ki1.sendText(msg.to,"Sudah on Bosqu")
                     else:
-                        cl.sendText(msg.to,"Ok Bosqu")
+                        ki1.sendText(msg.to,"Ok Bosqu")
 
             elif msg.text in ["Auto join on","Join on","Join:on","เปิด เข้ากลุ่ม","เปิดเข้ากลุ่ม"]:
                 if wait["autoJoin"] == True:
@@ -3403,9 +3379,9 @@ http://line.me/ti/p/_9io7edD7W
                 else:
                     wait["timeline"] = True
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"done")
+                        cl.sendText(msg.to,"done")
                     else:
-                        ki1.sendText(msg.to,"要了开。")
+                        cl.sendText(msg.to,"要了开。")
             elif msg.text in ["ปิด แชร์","Share off","Share:off"]:
                 if wait["timeline"] == False:
                     if wait["lang"] == "JP":
@@ -3415,9 +3391,9 @@ http://line.me/ti/p/_9io7edD7W
                 else:
                     wait["timeline"] = False
                     if wait["lang"] == "JP":
-                        ki1.sendText(msg.to,"done")
+                        cl.sendText(msg.to,"done")
                     else:
-                        ki1.sendText(msg.to,"要了关断。")
+                        cl.sendText(msg.to,"要了关断。")
   
             elif msg.text in ["Like on","เปิด ไลค์"]:
                 if wait["likeOn"] == True:
@@ -3441,7 +3417,7 @@ http://line.me/ti/p/_9io7edD7W
 #========================================
             elif msg.text in ["เชคค่า","เช็คค่า","Set"]:
                 print "Setting pick up..."
-                md = "•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•\n\n"
+                md = "•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─\n\n"
                 if wait["likeOn"] == True: md+="􀬁􀆐􏿿 ออโต้ไลค์ : ✔ 􀜁􀄯􏿿\n"
                 else:md+="􀬁􀆐􏿿 ออโต้ไลค์ : ❌ 􀜁􀄰􏿿\n"
                 if wait["alwayRead"] == True: md+="􀬁􀆐􏿿 อ่าน : ✔ 􀜁􀄯??\n"
@@ -3960,11 +3936,11 @@ http://line.me/ti/p/_9io7edD7W
                     cl.sendText(msg.to,"ปฎิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
 
             elif msg.text in ["ลบ"]:
-                gid = ki1.getGroupIdsInvited()
+                gid = ki11.getGroupIdsInvited()
                 for i in gid:
-                    ki1.rejectGroupInvitation(i)
+                    ki11.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    ki1.sendText(msg.to,"ปฎิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
+                    ki11.sendText(msg.to,"ปฎิเสธกลุ่มเชิญเรียบร้อยแล้ว.👌")
 #=============================================#
             elif msg.text in ["Login","ขอลิ้ง"]:
                     if not LINEVITLogged:
@@ -4134,9 +4110,9 @@ http://line.me/ti/p/_9io7edD7W
                         cl.sendText(msg.to,"ระบบออโต้บล็อก\nถูกเปิดใช้งานอยู่แล้ว..👌")
 
             elif msg.text in ["ลบแชต"]:
-                ki1.removeAllMessages(op.param2)
-                ki1.sendText(msg.to,"ทำการลบเรียบร้อย👌")
-                ki1.sendText(msg.to,"Ok")
+                cl.removeAllMessages(op.param2)
+                cl.sendText(msg.to,"ทำการลบเรียบร้อย👌")
+                cl.sendText(msg.to,"Ok")
 
 #            elif "รัน @" in msg.text:
 #                _name = msg.text.replace("รัน @","")
@@ -4153,7 +4129,7 @@ http://line.me/ti/p/_9io7edD7W
             elif msg.text.lower() == 'ออน':  
                 ki1.sendText(msg.to, "โปรดรอสักครู่....")
                 eltime = time.time() - mulai
-                van = "•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•\n\nระยะเวลาที่บอททำงาน\n"+waktu(eltime)
+                van = "[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•\n\nระยะเวลาที่บอททำงาน\n"+waktu(eltime)
                 ki1.sendText(msg.to,van)
 #========================================
 
@@ -4381,22 +4357,22 @@ http://line.me/ti/p/_9io7edD7W
 
             elif msg.text in ["เปิด นาฬิกา","Clock:on","Clock on","Jam on","Jam:on"]:
                 if wait["clock"] == True:
-                    ki1.sendText(msg.to,"already on")
+                    cl.sendText(msg.to,"already on")
                 else:
                     wait["clock"] = True
                     now2 = datetime.now()
                     nowT = datetime.strftime(now2,"༺%H:%M༻")
                     profile = cl.getProfile()
                     profile.displayName = wait["cName"] + nowT
-                    ki1.updateProfile(profile)
-                    ki1.sendText(msg.to,"done")
+                    cl.updateProfile(profile)
+                    cl.sendText(msg.to,"done")
 
             elif msg.text in ["ปิด นาฬิกา","Clock:off","Clock off","Jam off","Jam:off"]:
                 if wait["clock"] == False:
-                    ki1.sendText(msg.to,"already off")
+                    cl.sendText(msg.to,"already off")
                 else:
                     wait["clock"] = False
-                    ki1.sendText(msg.to,"done")
+                    cl.sendText(msg.to,"done")
 
             elif "ตั้งชื่อ: " in msg.text:
                 n = msg.text.replace("ตั้งชื่อ: ","")
@@ -4505,14 +4481,14 @@ http://line.me/ti/p/_9io7edD7W
 
 #===============================================
             elif msg.text in ["Sp","sp","Speed"]:
-                cl.sendText(msg.to, "Progress.......")
+                ki1.sendText(msg.to, "Progress.......")
                 start = time.time()
                 time.sleep(0.001)
                 elapsed_time = time.time() - start
-                cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                ki1.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 print "[Command]Speed palsu executed"
             elif msg.text in ["Bot Speed"]:
-                ki1.sendText(msg.to, "Progress.......")
+                ki4.sendText(msg.to, "Progress.......")
                 start = time.time()
                 time.sleep(0.001)
                 elapsed_time = time.time() - start
@@ -4531,7 +4507,7 @@ http://line.me/ti/p/_9io7edD7W
                 print "[Command]Speed palsu executed"
 
             elif msg.text in ["Keybot"]:
-                ki.sendText(msg.to, "SELFBOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
+                ki.sendText(msg.to, "•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•\n\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[By.☬ധู้さန້ণق↔ധഖาໄฟ☬]")
 
 #========================================
             elif msg.text in ["กลับร่าง","Mebb"]:
@@ -4573,7 +4549,7 @@ http://line.me/ti/p/_9io7edD7W
 #-------------------Fungsi spam finish----------------------------
             elif "รูปกลุ่ม" in msg.text:
               if msg.from_ in admin:
-					group = ki1.getGroup(msg.to)
+					group = cl.getGroup(msg.to)
 					path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
                                         ki1.sendImageWithUrl(msg.to,path)
             elif "#Turn off bots" in msg.text:
@@ -4592,7 +4568,7 @@ http://line.me/ti/p/_9io7edD7W
                         x.preventJoinByTicket = False
                         cl.updateGroup(x)
                     gurl = cl.reissueGroupTicket(msg.to)
-                    cl.sendText(msg.to,"[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•" + gurl)
+                    cl.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•" + gurl)
                 else:
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Can not be used outside the group")
@@ -4684,8 +4660,8 @@ http://line.me/ti/p/_9io7edD7W
                         pass
 #-------------------------------------------------
             elif msg.text in ["เปิดหมด","Phet All on","Phet all on"]:
-                        ki1.sendText(msg.to,"[SELF BOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
-                        ki1.sendText(msg.to,"Please wait......")
+                        ki1.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki2.sendText(msg.to,"Please wait......")
                         ki1.sendText(msg.to,"Turn on all protection")
                         ki1.sendText(msg.to,"Qr:on")
                         ki1.sendText(msg.to,"Backup:on")
@@ -4698,8 +4674,8 @@ http://line.me/ti/p/_9io7edD7W
 
 
             elif msg.text in ["ปิดหมด","Phet All off","Phet all off"]:
-                        ki1.sendText(msg.to,"[SELFBOT]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
-                        ki1.sendText(msg.to,"Please wait......")
+                        ki1.sendText(msg.to,"•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                        ki2.sendText(msg.to,"Please wait......")
                         ki1.sendText(msg.to,"Turn off all protection")
                         ki1.sendText(msg.to,"Qr:off")
                         ki1.sendText(msg.to,"Backup:off")
@@ -4712,36 +4688,18 @@ http://line.me/ti/p/_9io7edD7W
                         ki1.sendText(msg.to,"Link off")
 
  
-    #        elif msg.text in ["ทีมงาน"]:
-    #            msg.contentType = 13
-    #            cl.sendText(msg.to, "[TEAM SELFBOT]\n[By.☬ധู้さန້ণق↔ധഖาໄฟ☬]")
-    #            cl.sendText(msg.to, "ผู้สร้าง.. SELFBOT\nBy.🔯ധู้さန້ণق↔ധഖาໄฟ🔯")
-    #            msg.contentMetadata = {'mid': 'uf0bd4970771f26a8cef66473d59bcc69'}
-    #            cl.sendMessage(msg)
-    #            cl.sendText(msg.to, "ผู้จัดการ .SELFBOT\nBy.☬ധู้さန້ণق↔ധഖาໄฟ☬")
-    #            msg.contentMetadata = {'mid': 'u6c8aab6ee167a596be2cf045ee2f90df'}
-    #            cl.sendMessage(msg)
-    #            cl.sendText(msg.to, "หวานใจ\nBy.ผู้สร้างพญาไฟ")
-    #            msg.contentMetadata = {'mid': 'u2743230861d1c637647d9ca2a8c1fc14'}
-    #            cl.sendMessage(msg)
-    #            cl.sendText(msg.to, "ประธาน:")
-    #            msg.contentMetadata = {'mid': 'u5b671f4148aa5bbec186b5b7cb295271'}
-    #            cl.sendMessage(msg)
-    #            cl.sendText(msg.to, "รองประธาน:💫 By. พยัค")
-    #            msg.contentMetadata = {'mid': 'u7988143c47d3faacf1856a72011eea93'}
-    #            cl.sendMessage(msg)
-    #            cl.sendText(msg.to, "รปภ.:SELFBOT")
-    #            msg.contentMetadata = {'mid': 'u5b671f4148aa5bbec186b5b7cb295271'}
-    #            cl.sendMessage(msg)
-    #            cl.sendText(msg.to, "ตัวเเทนสมาชิก:By.บอล")
-    #            msg.contentMetadata = {'mid': 'ueabd832a84add1392a2ff758f97b3c8e'}
-    #            cl.sendMessage(msg)
+            elif msg.text in ["ทีมงาน"]:
+                msg.contentType = 13
+                ki1.sendText(msg.to, "BOT LINE THAILAND")
+                ki1.sendText(msg.to, "ผู้สร้าง..SELFBOT\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                msg.contentMetadata = {'mid': 'u449034c15042f01e5356cb2695154167'}
+                ki2.sendMessage(msg)
 
 #========================================
             elif "#คท" in msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': msg.to+"',"}
-                ki1.sendMessage(msg)
+                cl.sendMessage(msg)
 
             elif "บิน" in msg.text:
                 if msg.toType == 2:
@@ -5030,25 +4988,25 @@ http://line.me/ti/p/_9io7edD7W
                 
             elif msg.text in ["เปิด อ่าน","Read on","Read:on"]:
                 wait['alwayRead'] = True
-                ki1.sendText(msg.to,"เปิดอ่านข้อความอัตโนมัติ.👌")
+                cl.sendText(msg.to,"เปิดอ่านข้อความอัตโนมัติ.👌")
                 
             elif msg.text in ["ปิด อ่าน","Read off","Read:off"]:
                 wait['alwayRead'] = False
-                ki1.sendText(msg.to,"ปิดอ่านข้อความอัตโนมัติ.👌")
+                cl.sendText(msg.to,"ปิดอ่านข้อความอัตโนมัติ.👌")
                 
             elif msg.text in ["Tag on","Autorespon:on","Respon on","Respon:on"]:
                 wait["detectMention"] = True
-                ki1.sendText(msg.to,"Auto Respon ON")
+                cl.sendText(msg.to,"Auto Respon ON")
                 
             elif msg.text in ["Tag off","Autorespon:off","Respon off","Respon:off"]:
                 wait["detectMention"] = False
-                ki1.sendText(msg.to,"Auto Respon OFF")
+                cl.sendText(msg.to,"Auto Respon OFF")
 
             elif msg.text in ["Tag1","Tag1"]:
-                ki1.sendText(msg.to,"ข้อความแทคล่าสุดคือ\n\n" + str(wait["tag1"]))
+                cl.sendText(msg.to,"ข้อความแทคล่าสุดคือ\n\n" + str(wait["tag1"]))
 
             elif msg.text in ["Tag2","Tag2"]:
-                ki1.sendText(msg.to,"ข้อความแทคล่าสุดคือ\n\n" + str(wait["tag2"]))
+                cl.sendText(msg.to,"ข้อความแทคล่าสุดคือ\n\n" + str(wait["tag2"]))
 
             elif "Tag1:" in msg.text:
                     wait["tag1"] = msg.text.replace("Tag1: ","")
@@ -5233,7 +5191,7 @@ http://line.me/ti/p/_9io7edD7W
                 h = ""
                 for i in gid:
                     h += "%s\n" % (cl.getGroup(i).name +" ? ["+str(len(cl.getGroup(i).members))+"]")
-                ki1.sendText(msg.to,"-- List Groups --\n\n"+ h +"\nTotal groups =" +" ["+str(len(gid))+"]")                            
+                cl.sendText(msg.to,"-- List Groups --\n\n"+ h +"\nTotal groups =" +" ["+str(len(gid))+"]")                            
             
 
             elif "แทค" == msg.text.lower():
@@ -5268,7 +5226,7 @@ http://line.me/ti/p/_9io7edD7W
                  if jml > 500:
                      print "Terlalu Banyak Men 500+"
                  cnt = Message()
-                 cnt.text = "[SELF BOT\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]:\n" + str(jml) +  " Members"
+                 cnt.text = "•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•:\n" + str(jml) +  " Members"
                  cnt.to = msg.to
                  cl.sendMessage(cnt)
 
@@ -5358,12 +5316,12 @@ http://line.me/ti/p/_9io7edD7W
                     else:
                         cl.sendText(msg.to, "Lurking has not been set.")
 
-            elif msg.text in ["เปิดอ่าน",".","ตั้งเวลา"]:
-                        ki1.sendText(msg.to,"lurk on")
+            elif msg.text in ["เปิดอ่าน","R on","ตั้งเวลา"]:
+                        cl.sendText(msg.to,"lurk on")
             elif msg.text in ["ปิดอ่าน","R off"]:
-                        ki1.sendText(msg.to,"lurk off")
-            elif msg.text in ["ใครอ่าน",".."]:
-                        ki1.sendText(msg.to,"lurkers")
+                        cl.sendText(msg.to,"lurk off")
+            elif msg.text in ["ใครอ่าน","Ry"]:
+                        cl.sendText(msg.to,"lurkers")
             elif msg.text in ["Ry20"]:
                         cl.sendText(msg.to,"lurkers")
                         cl.sendText(msg.to,"lurkers")
@@ -5556,26 +5514,26 @@ http://line.me/ti/p/_9io7edD7W
                     cl.sendText(msg.to,"===[DisplayName]===\n" + h.displayName)
             elif msg.text in ["ตัส","Mey1"]:
                     h = cl.getContact(mid)
-                    ki1.sendText(msg.to,"===[StatusMessage]===\n" + h.statusMessage)
+                    cl.sendText(msg.to,"===[StatusMessage]===\n" + h.statusMessage)
             elif msg.text in ["รูป","Mey2"]:
                     h = cl.getContact(mid)
-                    ki1.sendImageWithUrl(msg.to,"http://dl.profile.line-cdn.net/" + h.pictureStatus)
+                    cl.sendImageWithUrl(msg.to,"http://dl.profile.line-cdn.net/" + h.pictureStatus)
             elif msg.text in ["โปรวีดีโอ","Mey3"]:
                     h = cl.getContact(mid)
                     cl.sendVideoWithUrl(msg.to,"http://dl.profile.line-cdn.net/" + h.pictureStatus)
             elif msg.text in ["ลิ้งรูป","Mey4"]:
                     h = cl.getContact(mid)
-                    ki1.sendText(msg.to,"http://dl.profile.line-cdn.net/" + h.pictureStatus)
+                    cl.sendText(msg.to,"http://dl.profile.line-cdn.net/" + h.pictureStatus)
             elif msg.text in ["ปก","Mey5"]:
                     h = cl.getContact(mid)
                     cu = cl.channel.getCover(mid)          
                     path = str(cu)
-                    ki1.sendImageWithUrl(msg.to, path)
+                    cl.sendImageWithUrl(msg.to, path)
             elif msg.text in ["ลิ้งปก","Mey6"]:
                     h = cl.getContact(mid)
                     cu = cl.channel.getCover(mid)          
                     path = str(cu)
-                    ki1.sendText(msg.to, path)
+                    cl.sendText(msg.to, path)
             elif "Getmid @" in msg.text:
                 _name = msg.text.replace("Getmid @","")
                 _nametarget = _name.rstrip(' ')
@@ -6247,7 +6205,7 @@ http://line.me/ti/p/_9io7edD7W
                 usia = data["data"]["usia"]
                 ultah = data["data"]["ultah"]
                 zodiak = data["data"]["zodiak"]
-                ki1.sendText(msg.to,"============ I N F O R M A S I ============\n"+"Date Of Birth : "+lahir+"\nAge : "+usia+"\nUltah : "+ultah+"\nZodiak : "+zodiak+"\n============ I N F O R M A S I ============")
+                cl.sendText(msg.to,"============ I N F O R M A S I ============\n"+"Date Of Birth : "+lahir+"\nAge : "+usia+"\nUltah : "+ultah+"\nZodiak : "+zodiak+"\n============ I N F O R M A S I ============")
 
             elif msg.text in ["Time","เวลา"]:
                 timeNow = datetime.now()
@@ -6263,7 +6221,7 @@ http://line.me/ti/p/_9io7edD7W
                 for k in range(0, len(bulan)):
                     if bln == str(k): bln = bulan[k-1]
                 rst = hasil + ", " + inihari.strftime('%d') + " - " + bln + " - " + inihari.strftime('%Y') + "\nเวลาขณะนี้ : [ " + inihari.strftime('%H:%M:%S') + " ]"
-                ki1.sendText(msg.to, rst)
+                cl.sendText(msg.to, rst)
 
 #========================================================#
             elif msg.text.lower() == 'ifconfig':
@@ -6271,13 +6229,13 @@ http://line.me/ti/p/_9io7edD7W
                     cl.sendText(msg.to, botKernel + "\n\n===SERVER INFO NetStat===")
             elif msg.text.lower() == 'system':
                     botKernel = subprocess.Popen(["df","-h"], stdout=subprocess.PIPE).communicate()[0]
-                    ki1.sendText(msg.to, botKernel + "\n\n===SERVER INFO SYSTEM===")
+                    cl.sendText(msg.to, botKernel + "\n\n===SERVER INFO SYSTEM===")
             elif msg.text.lower() == 'kernel':
                     botKernel = subprocess.Popen(["uname","-srvmpio"], stdout=subprocess.PIPE).communicate()[0]
                     cl.sendText(msg.to, botKernel + "\n\n===SERVER INFO KERNEL===")
             elif msg.text.lower() == 'cpu':
                     botKernel = subprocess.Popen(["cat","/proc/cpuinfo"], stdout=subprocess.PIPE).communicate()[0]
-                    ki1.sendText(msg.to, botKernel + "\n\n===SERVER INFO CPU===")
+                    cl.sendText(msg.to, botKernel + "\n\n===SERVER INFO CPU===")
             elif msg.text in ["Pmcheck","เชคดำ","เช็คดำ"]:   
                 if wait["blacklist"] == {}:
                     cl.sendText(msg.to,"Tidak Ada Blacklist")
@@ -6798,25 +6756,25 @@ http://line.me/ti/p/_9io7edD7W
                 cl.sendMessage(cnt)
 
             elif msg.text in ["คท"]:
-                        ki1.sendText(msg.to,"😆เช็คจัง กลัวบอทหลุด ล่ะสิ😆")
+                        cl.sendText(msg.to,"😆เช็คจัง กลัวบอทหลุด ล่ะสิ😆")
 
             elif msg.text in ["เทสบอท"]:
-                        ki1.sendText(msg.to,"SELF BOT\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•]")
+                        cl.sendText(msg.to,"SELF BOT\n[By.☬ധู้さန້ণق↔ധഖาໄฟ☬]")
 
             elif msg.text in [".อยู่ไหม"]:
-                        ki1.sendText(msg.to,"อยู่...")
+                        cl.sendText(msg.to,"อยู่...")
 
             elif msg.text in ["/อยู่ไหม"]:
-                        ki1.sendText(msg.to,"เรื่องของกู...")
+                        cl.sendText(msg.to,"เรื่องของกู...")
 
             elif msg.text in ["/ออนไหม"]:
-                        ki1.sendText(msg.to,"ออน")
+                        cl.sendText(msg.to,"ออน")
 
             elif msg.text in ["/ปิดป้องกัน"]:
-                        ki1.sendText(msg.to,"ปิดป้องกัน")
+                        cl.sendText(msg.to,"ปิดป้องกัน")
 
             elif msg.text in ["/เปิดกันรัน"]:
-                        ki1.sendText(msg.to,"เปิดกันรัน")
+                        cl.sendText(msg.to,"เปิดกันรัน")
 
             elif "/ตั้งเวลา" == msg.text.lower():
                 if msg.to in wait2['readPoint']:
@@ -6846,13 +6804,13 @@ http://line.me/ti/p/_9io7edD7W
                     wait2['ROM'][msg.to] = {}
                     with open('sider.json', 'w') as fp:
                      json.dump(wait2, fp, sort_keys=True, indent=4)
-                     ki1.sendText(msg.to, "โปรเเกรมเปิดการอ่านอัตโนมัต\nSet reading point:\n" + datetime.now().strftime('%H:%M:%S'))
+                     cl.sendText(msg.to, "โปรเเกรมเปิดการอ่านอัตโนมัต\nSet reading point:\n" + datetime.now().strftime('%H:%M:%S'))
                      print wait2
 
                     
             elif "/ปิดการอ่าน" == msg.text.lower():
                 if msg.to not in wait2['readPoint']:
-                    ki1.sendText(msg.to,"Lurking already off\nปิดการอ่านอัตโนมัต")
+                    cl.sendText(msg.to,"Lurking already off\nปิดการอ่านอัตโนมัต")
                 else:
                     try:
                             del wait2['readPoint'][msg.to]
@@ -6860,13 +6818,13 @@ http://line.me/ti/p/_9io7edD7W
                             del wait2['setTime'][msg.to]
                     except:
                           pass
-                    ki1.sendText(msg.to, "ปิดการอ่านอัตโนมัต\nDelete reading point:\n" + datetime.now().strftime('%H:%M:%S'))
+                    cl.sendText(msg.to, "ปิดการอ่านอัตโนมัต\nDelete reading point:\n" + datetime.now().strftime('%H:%M:%S'))
 
                     
             elif "/อ่าน" == msg.text.lower():
                     if msg.to in wait2['readPoint']:
                         if wait2["ROM"][msg.to].items() == []:
-                             ki1.sendText(msg.to, "SELF BOT\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•] \n\nLurkers:\nNone")
+                             cl.sendText(msg.to, "SELF BOT\n[By.☬ധู้さန້ণق↔ധഖาໄฟ☬] \n\nLurkers:\nNone")
                         else:
                             chiya = []
                             for rom in wait2["ROM"][msg.to].items():
@@ -6894,18 +6852,18 @@ http://line.me/ti/p/_9io7edD7W
                         print lol
                         msg.contentMetadata = lol
                         try:
-                          ki1.sendMessage(msg)
+                          cl.sendMessage(msg)
                         except Exception as error:
                               print error
                         pass
                
            
                     else:
-                        ki1.sendText(msg.to, "กรุณาตั้งเวลาการอ่านใหม่อีกครั้งโปรดพิมพ์ ➠ /ตั้งเวลา")
+                        cl.sendText(msg.to, "กรุณาตั้งเวลาการอ่านใหม่อีกครั้งโปรดพิมพ์ ➠ /ตั้งเวลา")
             elif msg.from_ in mimic["target"] and mimic["status"] == True and mimic["target"][msg.from_] == True:
             	text = msg.text
             	if text is not None:
-            		ki1.sendText(msg.to, "[อัตโนมัติ]: " + text)
+            		cl.sendText(msg.to, "[อัตโนมัติ]: " + text)
             	else:
             		if msg.contentType == 7:
             			msg.contentType = 7
@@ -6948,7 +6906,7 @@ http://line.me/ti/p/_9io7edD7W
             if wait["Notifed"] == True:
                 if op.param2 in Bots:
                     return
-                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n􀜁􀄄􏿿 เเล้วพบกันใหม่นะ 􀜁􀄄􏿿")
+                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n􀜁􀄄􏿿 เเล้วพบใหม่นะ 􀜁􀄄􏿿")
                 print "MEMBER OUT GROUP"
 
         if op.type == 17:
@@ -6996,7 +6954,7 @@ http://line.me/ti/p/_9io7edD7W
                 contact = cl.getContact(op.param2)
                 image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
                 cl.sendImageWithUrl(op.param1,image)
-                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n[🙋ยินดีตอนรับ]\n•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•")
+                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n[🙋ยินดีตอนรับ][By. ☬ധู้さန້ণق↔ധഖาໄฟ☬]")
                 print "MEMBER HAS JOIN THE GROUP"
 
         if op.type == 19:
