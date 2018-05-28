@@ -1,1 +1,1 @@
-# SELFBOT-By-VIT
+# SELFBOT
